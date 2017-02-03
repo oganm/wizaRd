@@ -1,0 +1,26 @@
+---
+title: "Readme"
+output: github_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(wizaRd)
+```
+
+wizaRd
+=====
+
+Installation
+----------
+
+```
+devtools::install_github('oganm/ogbox')
+devtools::install_github('oganm/wizaRd')
+```
+
+Usage
+-----
+
+```{r}
+spells$Immolation
+```
