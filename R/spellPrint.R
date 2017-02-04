@@ -1,9 +1,21 @@
 #' @export
 print.spell = function(spell){
-  cat(spell$text)
-  cat('\n')
-  cat(spell$dice)
-  cat('\n')
-  results = spell$dice %>% sapply(ogbox::roll)
-  print(results)
+    cat(spell$text)
+    cat('\n')
+    cat(spell$dice)
+    cat('\n')
+    if(length(dice) > 0){
+        results = spell$dice %>% sapply(ogbox::roll)
+        print(results)
+    }
+}
+
+#' @export
+filterSpells = function(sources =  NULL,
+                        range = NULL,
+                        components = NULL,
+                        castingTime = NULL,
+                        level = NULL,
+                        school = NULL){
+
 }

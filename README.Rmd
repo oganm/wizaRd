@@ -10,6 +10,8 @@ library(wizaRd)
 wizaRd
 =====
 
+Spell data taken from https://github.com/thebombzen/grimoire, originally https://github.com/ephe/grimoire/.
+
 Installation
 ----------
 
