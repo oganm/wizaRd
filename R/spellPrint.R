@@ -4,7 +4,7 @@ print.spell = function(spell){
     cat('\n')
     cat(spell$dice)
     cat('\n')
-    if(length(dice) > 0){
+    if(length(spell$dice) > 0){
         results = spell$dice %>% sapply(ogbox::roll)
         print(results)
     }
