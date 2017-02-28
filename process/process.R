@@ -30,6 +30,8 @@ schools = c('abjuration',
             'necromancy',
             'transmutation')
 
+components = c('V','S','M')
+
 spellParse = function(text){
   spell = list()
   spell$text= text %>% str_extract('(?<=-\\n\n)(.|\\n)*?$')
@@ -38,20 +40,24 @@ spellParse = function(text){
   spell$tags =  text %>% str_extract('(?<=tags:\\s).*?(?=\n)') %>% str_trim %>% str_replace_all('"|\\[|\\]',"") %>% str_split(',') %>%{.[[1]]} %>% str_trim
   spell$range = text %>% str_extract('(?<=Range\\*\\*:\\s).*?(?=\n)')
   spell$castingTime = text %>% str_extract('(?<=Casting\\sTime\\*\\*:\\s).*?(?=\n)')
-  spell$components = text %>% str_extract('(?<=Components\\*\\*:\\s).*?(?=\n)') %>% str_split(',') %>%{.[[1]]}
+  spell$components = text %>% str_extract('(?<=Components\\*\\*:\\s).*?(?=\n)') %>%
+      str_extract_all(ogbox::regexMerge(components)) %>%{.[[1]]}
   spell$duration = text %>% str_extract('(?<=Duration\\*\\*:\\s).*?(?=\n)') %>% str_split(',') %>%{.[[1]]}
   spell$ritual = 'ritual' %in% spell$tags
   spell$classes  = spell$tags[grepl(ogbox::regexMerge(classNames),spell$tags)]
   spell$school= spell$tags[grepl(ogbox::regexMerge(schools),spell$tags)]
   spell$level= spell$tags %>% paste(collapse='\n') %>% str_extract('((?<=level)[0-9])|(cantrip)') %>% as.integer
+  if(is.na(spell$level)){
+      spell$level = 0 %>% as.integer
+  }
 
   spell$dice = text %>% str_extract_all('[0-9]+?d[0-9]+') %>% {.[[1]]}
 
   class(spell) = append(class(spell), 'spell')
   return(spell)
-
 }
-
 spells = spellText %>% lapply(spellParse)
+
+class(spells) = append(class(spells),'spellList')
 
 devtools::use_data(spells,overwrite=TRUE)

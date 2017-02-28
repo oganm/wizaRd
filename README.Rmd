@@ -16,8 +16,10 @@ Installation
 ----------
 
 ```
-devtools::install_github('oganm/ogbox')
+devtools::install_github('oganm/diceSyntax')
 devtools::install_github('oganm/wizaRd')
+devtools::install_github('oganm/ogbox')
+
 ```
 
 Usage
