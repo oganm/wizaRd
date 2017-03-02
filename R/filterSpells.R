@@ -21,8 +21,9 @@ filterSpells = function(spells = spells,
     Ssources = spells %>% purrr::map_chr('source') %>% stringr::str_replace('\\..*?$','')
     Srange = spells %>% purrr::map_chr('range') %>%
         {.[grepl('Self',.)] = 'Self';.} %>%
-        str_replace(' feet', '') %>%
-        {.[grepl('mile',.)] %<>% str_replace('(\\smile(s|$))','') %>% as.integer %>% multiply_by(5280);.}
+        stringr::str_replace(' feet', '') %>%
+        {.[grepl('mile',.)] %<>% stringr::str_replace('(\\smile(s|$))','') %>% as.integer %>%
+                magrittr::multiply_by(5280);.}
 
     Scomponents = spells %>% purrr::map('components')
 

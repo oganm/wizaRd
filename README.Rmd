@@ -18,7 +18,6 @@ Installation
 ```
 devtools::install_github('oganm/diceSyntax')
 devtools::install_github('oganm/wizaRd')
-devtools::install_github('oganm/ogbox')
 
 ```
 
@@ -27,4 +26,8 @@ Usage
 
 ```{r}
 spells$Immolation
+
+spells %>% filterSpells(level=c(0,1),class= 'bard',sources='PHB',school='evocation')
+
+makeBook(level=3)
 ```

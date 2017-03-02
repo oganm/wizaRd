@@ -4,10 +4,12 @@ Readme
 wizaRd
 ======
 
+Spell data taken from <https://github.com/thebombzen/grimoire>, originally <https://github.com/ephe/grimoire/>.
+
 Installation
 ------------
 
-    devtools::install_github('oganm/ogbox')
+    devtools::install_github('oganm/diceSyntax')
     devtools::install_github('oganm/wizaRd')
 
 Usage
@@ -31,7 +33,44 @@ spells$Immolation
     ## 
     ## If damage from this spell reduces a target to 0 hit points, the target is turned to ash.
     ## 7d6 3d6
-    ## [1] "Rolls: [ 3 4 6 2 4 5 4 ]"
-    ## [1] "Rolls: [ 2 5 5 ]"
+    ## [1] "Rolls: [ 3 5 2 6 6 3 3 ]"
+    ## [1] "Rolls: [ 3 6 2 ]"
     ## 7d6 3d6 
-    ##  28  12
+    ##  28  11
+
+``` r
+spells %>% filterSpells(level=c(0,1),class= 'bard',sources='PHB',school='evocation')
+```
+
+    ## Cantrips
+    ## ========
+    ## Dancing Lights
+    ## Light
+    ## 
+    ## Level 1
+    ## =======
+    ## Cure Wounds
+    ## Faerie Fire
+    ## Healing Word
+    ## Thunderwave
+
+``` r
+makeBook(level=3)
+```
+
+    ## 
+    ## Level 1
+    ## =======
+    ## Alarm
+    ## Ray of Sickness
+    ## Detect Magic
+    ## Feather Fall
+    ## Longstrider
+    ## Sleep
+    ## Mage Armor
+    ## False Life
+    ## 
+    ## Level 2
+    ## =======
+    ## Detect Thoughts
+    ## Hold Person
