@@ -27,6 +27,14 @@ print.spell = function(spell){
     return(x)
 }
 
+#'@export
+cSpells = function(...){
+    x = list(...)
+    names(x) = x %>% purrr::map_chr('name')
+    class(x) = append(class(x),'spellList')
+    return(x)
+}
+
 #' @export
 print.spellList = function(spells){
     if(length(spells)==0){
