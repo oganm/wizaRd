@@ -1,15 +1,15 @@
 Package: wizaRd
-Title: What the Package Does (one line, title case)
+Title: Spell list and tools for D&D 5e
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Ogan", "Mancarci", email = "ogan.mancarcii@gmail.com", role = c("aut", "cre"))
+Description: A list of D&D 5e edition and some functions to fiddle with them.
 Depends: R (>= 3.3.2)
 Imports: 
     diceSyntax,
     magrittr,
     purrr,
     stringr
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1

@@ -4,6 +4,8 @@ Readme
 wizaRd
 ======
 
+A list of D&D 5e edition and some functions to fiddle with them.
+
 Spell data taken from <https://github.com/thebombzen/grimoire>, originally <https://github.com/ephe/grimoire/>.
 
 Installation
@@ -14,6 +16,24 @@ Installation
 
 Usage
 -----
+
+The package includes a list that include all 5e spells called `spells`. Each element of this list is a list that holds different attributes of the spells.
+
+``` r
+spells$`Acid Splash` %>% ls
+```
+
+    ##  [1] "castingTime" "classes"     "components"  "dice"        "duration"   
+    ##  [6] "level"       "name"        "range"       "ritual"      "school"     
+    ## [11] "source"      "tags"        "text"
+
+``` r
+spells$`Acid Splash`$components
+```
+
+    ## [1] "V" "S"
+
+Individual spells have a special print function (`print.spell`). When a spell is called the text for the spell is printed and any dice roll found to be associated with the spell based on the text is rolled
 
 ``` r
 spells$Immolation
@@ -33,10 +53,30 @@ spells$Immolation
     ## 
     ## If damage from this spell reduces a target to 0 hit points, the target is turned to ash.
     ## 7d6 3d6
-    ## [1] "Rolls: [ 3 5 2 6 6 3 3 ]"
-    ## [1] "Rolls: [ 3 6 2 ]"
+    ## [1] "Rolls: [ 1 2 5 2 1 4 3 ]"
+    ## [1] "Rolls: [ 6 1 1 ]"
     ## 7d6 3d6 
-    ##  28  11
+    ##  18   8
+
+The `spells` object also has a special print function (`print.spellList`).
+
+``` r
+head(spells)
+```
+
+    ## Cantrips
+    ## ========
+    ## Acid Splash
+    ## 
+    ## Level 1
+    ## =======
+    ## Alarm
+    ## Animal Friendship
+    ## Armor of Agathys
+    ## Arms of Hadar
+    ## Bane
+
+A few utility functions exist to create subset `spellList`s
 
 ``` r
 spells %>% filterSpells(level=c(0,1),class= 'bard',sources='PHB',school='evocation')
@@ -61,16 +101,16 @@ makeBook(level=3)
     ## 
     ## Level 1
     ## =======
-    ## Alarm
-    ## Ray of Sickness
-    ## Detect Magic
-    ## Feather Fall
+    ## Burning Hands
+    ## Color Spray
+    ## Chromatic Orb
+    ## Witch Bolt
+    ## Comprehend Languages
+    ## Find Familiar
     ## Longstrider
-    ## Sleep
-    ## Mage Armor
-    ## False Life
+    ## Detect Magic
     ## 
     ## Level 2
     ## =======
-    ## Detect Thoughts
-    ## Hold Person
+    ## Enlarge/Reduce
+    ## Dust Devil

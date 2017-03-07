@@ -10,6 +10,8 @@ library(wizaRd)
 wizaRd
 =====
 
+A list of D&D 5e edition and some functions to fiddle with them.
+
 Spell data taken from https://github.com/thebombzen/grimoire, originally https://github.com/ephe/grimoire/.
 
 Installation
@@ -24,9 +26,28 @@ devtools::install_github('oganm/wizaRd')
 Usage
 -----
 
+The package includes a list that include all 5e spells called `spells`. Each element of this list is a list that holds different attributes of the spells.
+
+```{r}
+spells$`Acid Splash` %>% ls
+
+spells$`Acid Splash`$components
+```
+
+Individual spells have a special print function (`print.spell`). When a spell is called the text for the spell is printed and any dice roll found to be associated with the spell based on the text is rolled
+
 ```{r}
 spells$Immolation
+```
 
+The `spells` object also has a special print function (`print.spellList`).
+
+```{r}
+head(spells)
+```
+
+A few utility functions exist to create subset `spellList`s
+```{r}
 spells %>% filterSpells(level=c(0,1),class= 'bard',sources='PHB',school='evocation')
 
 makeBook(level=3)
