@@ -54,6 +54,16 @@ filterSpells = function(spells = spells,
 }
 
 #' @export
+leveledList = function(spells){
+    0:9 %>% lapply(function(i){
+        spells %>% filterSpells(level = i)
+    }) -> out
+    names(out) = 0:9
+    out = out[sapply(out,length)>0]
+    return(out)
+}
+
+#' @export
 makeBook = function(level, extras = NULL,spells = wizaRd::spells, takeMax = TRUE){
 
     validSpells = spells
