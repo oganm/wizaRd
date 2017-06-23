@@ -61,3 +61,4 @@ spells = spellText %>% lapply(spellParse)
 class(spells) = append(class(spells),'spellList')
 
 devtools::use_data(spells,overwrite=TRUE)
+spells %>% jsonlite::toJSON() %>% writeLines('data-raw/spells.json')
