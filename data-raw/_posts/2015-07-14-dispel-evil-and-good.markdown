@@ -2,7 +2,7 @@
 layout: post
 title: "Dispel Evil and Good"
 date: 2015-07-14
-source: PHB.233
+sources: [PHB.233]
 tags: [cleric, paladin, level5, abjuration]
 ---
 
@@ -22,4 +22,4 @@ You can end the spell early by using either of the following special functions.
 
 **Break Enchantment.** As your action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.
 
-**Dismissal.** As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.
+**Dismissal.** As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn’t there already). If they aren’t on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.

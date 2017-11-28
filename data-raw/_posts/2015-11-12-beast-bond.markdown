@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Beast Bond"
-date:   2015-11-12
-source: EE.15
+date: 2015-11-12
+sources: [EE.15, Xanathar.150]
 tags: [druid, ranger, level1, divination]
 ---
 

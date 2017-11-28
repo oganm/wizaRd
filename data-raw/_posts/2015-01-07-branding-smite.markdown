@@ -2,13 +2,13 @@
 layout: post
 title:  "Branding Smite"
 date:   2015-01-07
-source: PHB.219
+sources: [PHB.219]
 tags: [paladin, level2, evocation]
 ---
 
 **2nd-level evocation**
 
-**Casting Time**: 1 action
+**Casting Time**: 1 bonus action
 
 **Range**: Self
 

@@ -2,6 +2,7 @@ library(ogbox)
 library(magrittr)
 library(stringr)
 
+unlink('data-raw/_posts/',recursive = TRUE)
 system('svn checkout https://github.com/thebombzen/grimoire/trunk/_posts')
 system('mv _posts data-raw/_posts')
 
@@ -36,7 +37,7 @@ spellParse = function(text){
   spell = list()
   spell$text= text %>% str_extract('(?<=-\\n\n)(.|\\n)*?$')
   spell$name = text %>% str_extract('(?<=title:\\s).*?(?=\n)') %>% str_trim %>% str_replace_all('"',"")
-  spell$source = text %>% str_extract('(?<=source:\\s).*?(?=\n)') %>% str_trim %>% str_replace_all('"',"")
+  spell$source = text %>% str_extract('(?<=sources:\\s).*?(?=\n)') %>% str_trim %>% str_replace_all('"|\\[|\\]',"") %>% str_split(',') %>%{.[[1]]} %>% str_trim
   spell$tags =  text %>% str_extract('(?<=tags:\\s).*?(?=\n)') %>% str_trim %>% str_replace_all('"|\\[|\\]',"") %>% str_split(',') %>%{.[[1]]} %>% str_trim
   spell$range = text %>% str_extract('(?<=Range\\*\\*:\\s).*?(?=\n)')
   spell$castingTime = text %>% str_extract('(?<=Casting\\sTime\\*\\*:\\s).*?(?=\n)')

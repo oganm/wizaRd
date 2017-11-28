@@ -2,7 +2,7 @@
 layout: post
 title:  "Remove Curse"
 date:   2014-08-24
-source: PHB.271
+sources: [PHB.271]
 tags: [cleric, paladin, warlock, wizard, level3, abjuration]
 ---
 
@@ -16,4 +16,4 @@ tags: [cleric, paladin, warlock, wizard, level3, abjuration]
 
 **Duration**: Instantaneous
 
-At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.
+At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner’s attunement to the object so it can be removed or discarded.
