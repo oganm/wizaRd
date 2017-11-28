@@ -11,7 +11,6 @@ Spell data taken from <https://github.com/thebombzen/grimoire>, originally <http
 Installation
 ------------
 
-    devtools::install_github('oganm/diceSyntax')
     devtools::install_github('oganm/wizaRd')
 
 Usage
@@ -53,10 +52,10 @@ spells$Immolation
     ## 
     ## If damage from this spell reduces a target to 0 hit points, the target is turned to ash.
     ## 7d6 3d6
-    ## [1] "Rolls: [ 1 2 5 2 1 4 3 ]"
-    ## [1] "Rolls: [ 6 1 1 ]"
+    ## [1] "Rolls: [ 5 4 4 *6* 2 3 *1* ]"
+    ## [1] "Rolls: [ 2 *6* 2 ]"
     ## 7d6 3d6 
-    ##  18   8
+    ##  25  10
 
 The `spells` object also has a special print function (`print.spellList`).
 
@@ -101,16 +100,16 @@ makeBook(level=3)
     ## 
     ## Level 1
     ## =======
-    ## Burning Hands
-    ## Color Spray
-    ## Chromatic Orb
-    ## Witch Bolt
-    ## Comprehend Languages
-    ## Find Familiar
-    ## Longstrider
-    ## Detect Magic
+    ## Catapult
+    ## Alarm
+    ## Tasha's Hideous Laughter
+    ## Ice Knife
+    ## Silent Image
+    ## Ray of Sickness
+    ## Tenser's Floating Disk
+    ## False Life
     ## 
     ## Level 2
     ## =======
-    ## Enlarge/Reduce
-    ## Dust Devil
+    ## Continual Flame
+    ## Gust of Wind
