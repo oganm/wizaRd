@@ -4,7 +4,7 @@ Readme
 wizaRd
 ======
 
-A list of D&D 5e edition and some functions to fiddle with them.
+A list of D&D 5e spells and some functions to fiddle with them.
 
 Spell data taken from <https://github.com/thebombzen/grimoire>, originally <https://github.com/ephe/grimoire/>.
 
@@ -52,10 +52,12 @@ spells$Immolation
     ## 
     ## If damage from this spell reduces a target to 0 hit points, the target is turned to ash.
     ## 7d6 3d6
-    ## [1] "Rolls: [ 5 4 4 *6* 2 3 *1* ]"
-    ## [1] "Rolls: [ 2 *6* 2 ]"
+    ## [1] "Rolls: [ *6* *6* 4 2 5 *6* 4 ]"
+    ## [1] "Rolls: [ *1* 5 4 ]"
     ## 7d6 3d6 
-    ##  25  10
+    ##  33  10
+
+Note that dice annotations are not manually curated. If it sees a mention of a dice in the spell description, it rolls it.
 
 The `spells` object also has a special print function (`print.spellList`).
 
@@ -100,16 +102,16 @@ makeBook(level=3)
     ## 
     ## Level 1
     ## =======
-    ## Catapult
-    ## Alarm
-    ## Tasha's Hideous Laughter
-    ## Ice Knife
+    ## Witch Bolt
+    ## Thunderwave
+    ## Comprehend Languages
     ## Silent Image
-    ## Ray of Sickness
+    ## Find Familiar
+    ## Magic Missile
+    ## Burning Hands
     ## Tenser's Floating Disk
-    ## False Life
     ## 
     ## Level 2
     ## =======
-    ## Continual Flame
-    ## Gust of Wind
+    ## Misty Step
+    ## Melf's Acid Arrow

@@ -10,7 +10,7 @@ devtools::load_all()
 wizaRd
 =====
 
-A list of D&D 5e edition and some functions to fiddle with them.
+A list of D&D 5e spells and some functions to fiddle with them.
 
 Spell data taken from https://github.com/thebombzen/grimoire, originally https://github.com/ephe/grimoire/.
 
@@ -38,6 +38,8 @@ Individual spells have a special print function (`print.spell`). When a spell is
 ```{r}
 spells$Immolation
 ```
+
+Note that dice annotations are not manually curated. If it sees a mention of a dice in the spell description, it rolls it.
 
 The `spells` object also has a special print function (`print.spellList`).
 
