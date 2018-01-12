@@ -1,24 +1,22 @@
 #' @export
 filterSpells = function(spells = spells,
-                        class = c("sorcerer", "wizard", "ranger", "bard", "cleric (nature)",
-                                  "druid", "warlock", "cleric", "paladin (vengeance)", "paladin",
-                                  "cleric (light)", "warlock (fiend)", "cleric (trickery)", "warlock (great old one)",
-                                  "cleric (war)", "paladin (ancients)", "warlock (fae)", "cleric (death)",
-                                  "warlock (undying)", "cleric (tempest)", "paladin (oathbreaker)",
-                                  "cleric (knowledge)", "cleric (arcana)", "paladin (devotion)",
-                                  "druid (desert)", "paladin (crown)", "druid (underdark)", "druid (grassland)",
-                                  "druid (arctic)", "druid (swamp)", "druid (forest)", "druid (mountain)",
-                                  "druid (coast)"),
+                        class = wizaRd::spells %>% purrr::map('classes') %>% unlist %>% unique,
                         level = NULL,
-                        sources =  c("PHB", "EE", "SCAG"),
+                        sources =  wizaRd::spells %>% purrr::map('source') %>%
+                            purrr::map(stringr::str_replace,'\\..*?$','') %>%
+                            unlist %>%
+                            unique,
                         # range = NULL,
                         components = NULL,
                         # castingTime = NULL,
-                        school = c("conjuration", "abjuration", "enchantment", "evocation", "necromancy",
-                                   "illusion", "divination", "transmutation")){
+                        school = wizaRd::spells %>%
+                            purrr::map('school') %>%
+                            unlist %>%
+                            unique)
+    {
     Sclass = spells %>% purrr::map('classes')
     Slevels = spells %>% purrr::map_int('level')
-    Ssources = spells %>% purrr::map_chr('source') %>% stringr::str_replace('\\..*?$','')
+    Ssources = spells %>% purrr::map('source') %>% purrr::map(stringr::str_replace,'\\..*?$','')
     Srange = spells %>% purrr::map_chr('range') %>%
         {.[grepl('Self',.)] = 'Self';.} %>%
         stringr::str_replace(' feet', '') %>%
@@ -39,7 +37,7 @@ filterSpells = function(spells = spells,
         out = out & (Slevels %in% level)
     }
     if(!is.null(sources)){
-        out = out &(Ssources %in% sources)
+        out = out &(Ssources %>% purrr::map(`%in%`,sources) %>% purrr::map_lgl(any))
     }
     if(!is.null(components)){
         out = out & (Scomponents %>% sapply(function(x){sort(components) == sort(x)}))
