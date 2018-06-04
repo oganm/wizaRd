@@ -5,7 +5,7 @@ print.spell = function(spell){
     cat(spell$dice)
     cat('\n')
     if(length(spell$dice) > 0){
-        results = spell$dice %>% sapply(diceSyntax::roll)
+        results = spell$dice %>% gsub('SPELL|PROF|\\+SPELL|\\+PROF','',.) %>% sapply(diceSyntax::roll)
         print(results)
     }
 }

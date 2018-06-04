@@ -51,11 +51,11 @@ spells$Immolation
     ## Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 8d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell’s duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 4d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can’t be extinguished by nonmagical means.
     ## 
     ## If damage from this spell kills a target, the target is turned to ash.
-    ## 8d6 4d6
-    ## [1] "Rolls: [ 2 3 4 *6* 2 *6* *6* 4 ]"
-    ## [1] "Rolls: [ 4 *1* 2 2 ]"
-    ## 8d6 4d6 
-    ##  33   9
+    ## 7d6 3d6
+    ## [1] "Rolls: [ 2 3 4 *6* 2 *6* *6* ]"
+    ## [1] "Rolls: [ 4 4 *1* ]"
+    ## 7d6 3d6 
+    ##  29   9
 
 Note that dice annotations are not manually curated. If it sees a mention of a dice in the spell description, it rolls it.
 
@@ -102,16 +102,16 @@ makeBook(level=3)
     ## 
     ## Level 1
     ## =======
+    ## Disguise Self
+    ## Detect Magic
+    ## Silent Image
+    ## Fog Cloud
     ## Sleep
-    ## Grease
-    ## Tenser’s Floating Disk
-    ## Jump
-    ## Shield
-    ## Earth Tremor
-    ## Find Familiar
+    ## Illusory Script
     ## Thunderwave
+    ## Cause Fear
     ## 
     ## Level 2
     ## =======
-    ## Dragon’s Breath
-    ## Detect Thoughts
+    ## Knock
+    ## Pyrotechnics
