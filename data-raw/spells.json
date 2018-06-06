@@ -87,7 +87,7 @@
     "classes": ["bard", "cleric", "paladin (vengeance)"],
     "school": ["enchantment"],
     "level": [1],
-    "dice": []
+    "dice": ["1d4"]
   },
   "Blade Ward": {
     "text": ["**Abjuration cantrip**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: V, S\n\n**Duration**: 1 round\n\nYou extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."],
@@ -117,7 +117,7 @@
     "classes": ["cleric", "paladin"],
     "school": ["enchantment"],
     "level": [1],
-    "dice": []
+    "dice": ["1d4"]
   },
   "Burning Hands": {
     "text": ["**1st-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: Self (15-foot cone)\n\n**Components**: V, S\n\n**Duration**: Instantaneous\n\nAs you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren’t being worn or carried.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."],
@@ -1677,7 +1677,7 @@
     "classes": ["cleric (trickery)", "sorcerer", "warlock (fae)", "wizard"],
     "school": ["transmutation"],
     "level": [3],
-    "dice": []
+    "dice": ["1d20"]
   },
   "Call Lightning": {
     "text": ["**3rd-level conjuration**\n\n**Casting Time**: 1 action\n\n**Range**: 120 feet\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 10 minutes\n\nA storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you can’t see a point in the air where the storm cloud could appear (for example, if you are in a room that can’t accommodate the cloud).\n\nWhen you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one.\n\nIf you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd."],
@@ -2232,7 +2232,7 @@
     "classes": ["druid (arctic)", "sorcerer", "wizard"],
     "school": ["transmutation"],
     "level": [3],
-    "dice": []
+    "dice": ["1d20"]
   },
   "Speak with Dead": {
     "text": ["**3rd-level necromancy**\n\n**Casting Time**: 1 action\n\n**Range**: 10 feet\n\n**Components**: V, S, M (burning incense)\n\n**Duration**: 10 minutes\n\nYou grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this spell within the last 10 days.\n\nUntil the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events."],
@@ -2307,7 +2307,7 @@
     "classes": ["bard", "cleric (knowledge)", "druid", "paladin (oathbreaker)", "sorcerer", "wizard"],
     "school": ["enchantment"],
     "level": [4],
-    "dice": []
+    "dice": ["1d10", "1d8"]
   },
   "Conjure Minor Elementals": {
     "text": ["**4th-level conjuration**\n\n**Casting Time**: 1 minute\n\n**Range**: 90 feet\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 1 hour\n\nYou summon elementals that appear in unoccupied spaces that you can see within range. You choose one of the following options for what appears:\n\n* One elemental of challenge rating 2 or lower\n* Two elementals of challenge rating 1 or lower\n* Four elementals of challenge rating 1/2 or lower\n* Eight elementals of challenge rating 1/4 or lower.\n\nAn elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.\n\nThe summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.\n\nThe DM has the creatures’ statistics.\n\n**At Higher Levels.** When you cast this spell using certain higher-level slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."],
@@ -3327,7 +3327,7 @@
     "classes": ["bard", "sorcerer", "wizard"],
     "school": ["conjuration"],
     "level": [7],
-    "dice": ["1d10", "1d10", "3d10"]
+    "dice": ["1d10", "1d10", "3d10", "1d100", "1d10", "1d8"]
   },
   "Suggestion": {
     "text": ["**2nd-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)\n\n**Duration**: Concentration, up to 8 hours\n\nYou suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can’t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.\n\nThe target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.\n\nYou can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn’t met before the spell expires, the activity isn’t performed.\n\nIf you or any of your companions damage the target, the spell ends."],
@@ -4587,7 +4587,7 @@
     "classes": ["cleric (trickery)", "druid (coast)", "sorcerer", "warlock", "wizard"],
     "school": ["illusion"],
     "level": [2],
-    "dice": []
+    "dice": ["1d20"]
   },
   "Mislead": {
     "text": ["**5th-level illusion**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: S\n\n**Duration**: Concentration, up to 1 hour\n\nYou become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.\n\nYou can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.\n\nYou can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surrounding."],
@@ -6312,7 +6312,7 @@
     "classes": ["cleric", "paladin"],
     "school": ["abjuration"],
     "level": [1],
-    "dice": []
+    "dice": ["1d4", "1d4"]
   },
   "Chaos Bolt": {
     "text": ["**1st-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 120 feet\n\n**Components**: V, S\n\n**Duration**: Instantaneous\n\nYou hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 damage + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack’s damage type, as shown below.\n\n|d8 |Damage Type|\n|---|:---------:|\n|1  |Acid       |\n|2  |Cold       |\n|3  |Fire       |\n|4  |Force      |\n|5  |Lightning  |\n|6  |Poison     |\n|7  |Psychic    |\n|8  |Thunder    |\n\nIf you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.\n\nA creature can be targeted only once by each casting of this spell.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st."],
@@ -6567,7 +6567,7 @@
     "classes": ["cleric"],
     "school": ["conjuration"],
     "level": [7],
-    "dice": []
+    "dice": ["1d4", "1d20"]
   },
   "Tiny Servant": {
     "text": ["**3rd-level transmutation**\n\n**Casting Time**: 1 minute\n\n**Range**: Touch\n\n**Components**: V, S\n\n**Duration**: 8 hours\n\nYou touch one Tiny, nonmagical object that isn’t attached to another object or a surface and isn’t being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the stat block for its statistics.\n\nAs a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.\n\nWhen the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.\n\n# Tiny Servant\n---\n*Tiny construct, unaligned*\n**Armor Class** 15 (natural armor)\n**Hit Points** 10 (4d4)\n**Speed** 30 ft., climb 30 ft.\n---\n| STR  |  DEX  |  CON  |  INT |  WIS  |  CHA |\n|:----:|:-----:|:-----:|:----:|:-----:|:----:|\n|4 (-3)|16 (+3)|10 (+O)|2 (-4)|10 (+O)|1 (-5)|\n---\n**Damage Immunities** poison, psychic\n**Condition Immunities** blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned\n**Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 10\n**Languages** —\n\n## Actions\n**Slam.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target.\n*Hit:* 5 (1d4 + 3) bludgeoning damage."],
@@ -6852,7 +6852,7 @@
     "classes": ["bard", "sorcerer", "warlock", "wizard"],
     "school": ["enchantment"],
     "level": [5],
-    "dice": ["8d6"]
+    "dice": ["8d6", "1d6"]
   },
   "Tenser’s Transformation": {
     "text": ["**6th-level transmutation**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: V, S, M (a few hairs from a bull)\n\n**Duration**: Concentration, up to 10 minutes\n\nYou endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can’t cast spells, and you gain the following benefits: \n\n- You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost. \n- You have advantage on attack rolls that you make with simple and martial weapons. \n- When you hit a target with a weapon attack, that target takes an extra 2d12 force damage. \n- You have proficiency with all armor, shields, simple weapons, and martial weapons. \n- You have proficiency in Strength and Constitution saving throws.\n- You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks. \n\nImmediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."],

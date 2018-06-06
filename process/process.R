@@ -62,8 +62,12 @@ spellParse = function(text){
     fightClubRoll = fightClubSpells[[which(tolower(names(fightClubSpells)) %in% tolower(spell$name))[1]]]
     fightClubRoll = fightClubRoll[names(fightClubRoll) %in% 'roll'] %>% unlist
 
-    textRoll =  spell$dice = text %>% str_extract_all('[0-9]+?d[0-9]+') %>% {.[[1]]}
+    textRoll = text %>% str_extract_all('[0-9]+?d[0-9]+') %>% {.[[1]]}
 
+    textRollNoBeginning = text %>% str_extract_all('(?<= )d[0-9]+') %>% {.[[1]]}
+    if(length(textRollNoBeginning)>0){
+        textRoll = c(textRoll,paste0(1,textRollNoBeginning))
+    }
     if(!is.null(fightClubRoll)){
         spell$dice = fightClubRoll %>%
             strsplit('\\)\\+\\(') %>% unlist %>% gsub('\\(|\\)','',.) %>% unique
