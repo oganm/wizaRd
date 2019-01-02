@@ -8,6 +8,8 @@ A list of D&D 5e spells and some functions to fiddle with them.
 
 Spell data taken from <https://github.com/thebombzen/grimoire>, originally <https://github.com/ephe/grimoire/>.
 
+Dice rolls are taken from [@FightClubXML](https://twitter.com/fightclubxml) when possible, inferred from text using regex when not.
+
 Installation
 ------------
 
@@ -51,13 +53,11 @@ spells$Immolation
     ## Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 8d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell’s duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 4d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can’t be extinguished by nonmagical means.
     ## 
     ## If damage from this spell kills a target, the target is turned to ash.
-    ## 7d6 3d6
-    ## [1] "Rolls: [ 2 3 4 *6* 2 *6* *6* ]"
-    ## [1] "Rolls: [ 4 4 *1* ]"
-    ## 7d6 3d6 
-    ##  29   9
-
-Note that dice annotations are not manually curated. If it sees a mention of a dice in the spell description, it rolls it.
+    ## 8d6 3d6
+    ## [1] "Rolls: [ 2 3 4 *6* 2 *6* *6* 4 ]"
+    ## [1] "Rolls: [ 4 *1* 2 ]"
+    ## 8d6 3d6 
+    ##  33   7
 
 The `spells` object also has a special print function (`print.spellList`).
 
@@ -102,16 +102,16 @@ makeBook(level=3)
     ## 
     ## Level 1
     ## =======
-    ## Disguise Self
     ## Detect Magic
-    ## Silent Image
-    ## Fog Cloud
     ## Sleep
+    ## Grease
+    ## Tasha’s Hideous Laughter
     ## Illusory Script
-    ## Thunderwave
-    ## Cause Fear
+    ## Shield
+    ## Snare
+    ## Fog Cloud
     ## 
     ## Level 2
     ## =======
-    ## Knock
     ## Pyrotechnics
+    ## Snilloc’s Snowball Swarm

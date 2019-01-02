@@ -15,6 +15,9 @@ A list of D&D 5e spells and some functions to fiddle with them.
 
 Spell data taken from https://github.com/thebombzen/grimoire, originally https://github.com/ephe/grimoire/.
 
+Dice rolls are taken from [\@FightClubXML](https://twitter.com/fightclubxml) when possible, inferred from text
+using regex when not.
+
 Installation
 ----------
 
@@ -40,7 +43,6 @@ Individual spells have a special print function (`print.spell`). When a spell is
 spells$Immolation
 ```
 
-Note that dice annotations are not manually curated. If it sees a mention of a dice in the spell description, it rolls it.
 
 The `spells` object also has a special print function (`print.spellList`).
 

@@ -1,10 +1,10 @@
 Package: wizaRd
 Title: Spell list and tools for D&D 5e
-Version: 0.0.0.9000
+Version: 1.0.0.9000
 Authors@R: person("Ogan", "Mancarci", email = "ogan.mancarcii@gmail.com", role = c("aut", "cre"))
 Description: A list of D&D 5e edition and some functions to fiddle with them.
 Depends: R (>= 3.3.2)
-Imports: 
+Imports:
     diceSyntax,
     magrittr,
     purrr,

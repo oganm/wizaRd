@@ -54,7 +54,7 @@ spellParse = function(text){
     spell$ritual = 'ritual' %in% spell$tags
     spell$classes  = spell$tags[grepl(ogbox::regexMerge(classNames),spell$tags)]
     spell$school= spell$tags[grepl(ogbox::regexMerge(schools),spell$tags)]
-    spell$level= spell$tags %>% paste(collapse='\n') %>% str_extract('((?<=level)[0-9])|(cantrip)') %>% as.integer
+    spell$level= suppressWarnings(spell$tags %>% paste(collapse='\n') %>% str_extract('((?<=level)[0-9])|(cantrip)') %>% as.integer)
     if(is.na(spell$level)){
         spell$level = 0 %>% as.integer
     }
@@ -86,6 +86,9 @@ spellParse = function(text){
 spells = spellText %>% lapply(spellParse)
 
 class(spells) = append(class(spells),'spellList')
+
+# fix for immolation
+spells$Immolation$dice = c('8d6','3d6')
 
 devtools::use_data(spells,overwrite=TRUE)
 spells %>% jsonlite::toJSON(pretty=TRUE) %>% writeLines('data-raw/spells.json')
