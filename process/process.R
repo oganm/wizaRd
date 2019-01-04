@@ -2,6 +2,7 @@ library(ogbox)
 library(magrittr)
 library(stringr)
 library(XML)
+library(purrr)
 
 unlink('data-raw/_posts/',recursive = TRUE)
 system('svn checkout https://github.com/thebombzen/grimoire/trunk/_posts')
@@ -62,7 +63,7 @@ spellParse = function(text){
     fightClubRoll = fightClubSpells[[which(tolower(names(fightClubSpells)) %in% tolower(spell$name))[1]]]
     fightClubRoll = fightClubRoll[names(fightClubRoll) %in% 'roll'] %>% unlist
 
-    textRoll = text %>% str_extract_all('[0-9]+?d[0-9]+') %>% {.[[1]]}
+    textRoll = text %>% str_extract_all('[0-9]+?d[0-9]+') %>% {.[[1]]} %>% unique
 
     textRollNoBeginning = text %>% str_extract_all('(?<= )d[0-9]+') %>% {.[[1]]}
     if(length(textRollNoBeginning)>0){
@@ -70,7 +71,7 @@ spellParse = function(text){
     }
     if(!is.null(fightClubRoll)){
         spell$dice = fightClubRoll %>%
-            strsplit('\\)\\+\\(') %>% unlist %>% gsub('\\(|\\)','',.) %>% unique
+            str_split('(\\+(?=[0-9]*?d))|(\\)\\+\\()') %>% unlist %>% gsub('\\(|\\)','',.) %>% unique
     } else{
         spell$dice = textRoll
         if(length(spell$dice)>0){
@@ -92,3 +93,5 @@ spells$Immolation$dice = c('8d6','3d6')
 
 devtools::use_data(spells,overwrite=TRUE)
 spells %>% jsonlite::toJSON(pretty=TRUE) %>% writeLines('data-raw/spells.json')
+
+spells %>% map('dice') %>% jsonlite::toJSON(pretty = TRUE) %>% writeLines('data-raw/spelldice.json')

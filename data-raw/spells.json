@@ -2352,7 +2352,7 @@
     "classes": ["cleric", "druid", "wizard"],
     "school": ["transmutation"],
     "level": [4],
-    "dice": ["2d8", "2d8"]
+    "dice": ["2d8"]
   },
   "Death Ward": {
     "text": ["**4th-level abjuration**\n\n**Casting Time**: 1 action\n\n**Range**: Touch\n\n**Components**: V, S\n\n**Duration**: 8 hours\n\nYou touch a creature and grant it a measure of protection from death.\n\nThe first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends."],
@@ -2787,7 +2787,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["evocation"],
     "level": [9],
-    "dice": ["20d6+20d6"]
+    "dice": ["20d6"]
   },
   "Mind Blank": {
     "text": ["**8th-level abjuration**\n\n**Casting Time**: 1 action\n\n**Range**: Touch\n\n**Components**: V, S\n\n**Duration**: 24 hours\n\nUntil the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils *[Wish](wish)* spells and spells or effects of similar power used to affect the target’s mind or to gain information about the target."],
@@ -3327,7 +3327,7 @@
     "classes": ["bard", "sorcerer", "wizard"],
     "school": ["conjuration"],
     "level": [7],
-    "dice": ["1d10", "1d10", "3d10", "1d100", "1d10", "1d8"]
+    "dice": ["1d10", "3d10", "1d100", "1d10", "1d8"]
   },
   "Suggestion": {
     "text": ["**2nd-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)\n\n**Duration**: Concentration, up to 8 hours\n\nYou suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can’t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.\n\nThe target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.\n\nYou can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn’t met before the spell expires, the activity isn’t performed.\n\nIf you or any of your companions damage the target, the spell ends."],
@@ -3702,7 +3702,7 @@
     "classes": ["cleric (tempest)", "paladin"],
     "school": ["evocation"],
     "level": [5],
-    "dice": ["5d6+5d6"]
+    "dice": ["5d6"]
   },
   "Disintegrate": {
     "text": ["**6th-level transmutation**\n\n**Casting Time**: 1 action\n\n**Range**: 60 feet\n\n**Components**: V, S, M (a lodestone and a pinch of dust)\n\n**Duration**: Instantaneous\n\nA thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by *[Wall of Force](wall-of-force)*.\n\nA creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 force damage. The target is disintegrated if this damage leaves it with 0 hit points.\n\nA disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a *[True Resurrection](true-resurrection)* or a *[Wish](wish)* spell.\n\nThis spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th."],
@@ -3837,7 +3837,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["transmutation"],
     "level": [2],
-    "dice": ["1d4", "1d4"]
+    "dice": ["1d4"]
   },
   "Enthrall": {
     "text": ["**2nd-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: 60 feet\n\n**Components**: V, S\n\n**Duration**: 1 minute\n\nYou weave a distracting string of words, causing creatures of your choice that you can see within range and that can hear you to make a Wisdom saving throw. Any creature that can’t be charmed succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. On a failed save, the target has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the spell ends or until the target can no longer hear you. The spell ends if you are incapacitated or can no longer speak."],
@@ -3987,7 +3987,7 @@
     "classes": ["cleric", "paladin (devotion)", "warlock (fiend)"],
     "school": ["evocation"],
     "level": [5],
-    "dice": ["4d6+4d6"]
+    "dice": ["4d6"]
   },
   "Flaming Sphere": {
     "text": ["**2nd-level conjuration**\n\n**Casting Time**: 1 action\n\n**Range**: 60 feet\n\n**Components**: V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)\n\n**Duration**: Concentration, up to 1 minute\n\nA 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.\n\nAs a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.\n\nWhen you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."],
@@ -4347,7 +4347,7 @@
     "classes": ["cleric (tempest)", "druid", "paladin (ancients)", "sorcerer", "wizard"],
     "school": ["evocation"],
     "level": [4],
-    "dice": ["2d8+4d6"]
+    "dice": ["2d8", "4d6"]
   },
   "Insect Plague": {
     "text": ["**5th-level conjuration**\n\n**Casting Time**: 1 action\n\n**Range**: 300 feet\n\n**Components**: V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)\n\n**Duration**: Concentration, up to 10 minutes\n\nSwarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range, The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere’s area is difficult terrain.\n\nWhen the area appears, each creature in it must make a Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th."],
@@ -5862,7 +5862,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["transmutation"],
     "level": [2],
-    "dice": ["2d6", "2d6"]
+    "dice": ["2d6"]
   },
   "Primordial Ward": {
     "text": ["**6th-level abjuration**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 1 minute\n\nYou have resistance to acid, cold, fire, lightning, and thunder damage for the spell’s duration.\n\nWhen you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."],
@@ -6087,7 +6087,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8", "1d8", "1d8"]
+    "dice": ["1d8"]
   },
   "Lightning Lure": {
     "text": ["**Evocation cantrip**\n\n**Casting Time**: 1 action\n\n**Range**: 15 feet\n\n**Components**: V\n\n**Duration**: Instantaneous\n\nYou create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.\n\nThis spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."],
@@ -6402,7 +6402,7 @@
     "classes": ["druid", "ranger"],
     "school": ["conjuration"],
     "level": [2],
-    "dice": ["1d6", "1d6"]
+    "dice": ["1d6"]
   },
   "Holy Weapon": {
     "text": ["**5th-level evocation**\n\n**Casting Time**: 1 bonus action\n\n**Range**: Touch\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 1 hour\n\nYou imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration.\n\nAs a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success."],
@@ -6597,7 +6597,7 @@
     "classes": ["cleric"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d6", "1d6", "2d6", "3d6", "4d6"]
+    "dice": ["1d6", "2d6", "3d6", "4d6"]
   },
   "Wrath of Nature": {
     "text": ["**5th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 120 feet\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 1 minute\n\nYou call out to the spirits of nature to rouse them against your enemies. Choose a point you can see within range. The spirits cause trees, rocks, and grasses in a 60-foot cube centered on that point to become animated until the spell ends.\n\n**Grasses and Undergrowth.** Any area of ground in the cube that is covered by grass or undergrowth is difficult terrain for your enemies.\n\n**Trees.** At the start of each of your turns, each of your enemies within 10 feet of any tree in the cube must succeed on a Dexterity saving throw or take 4d6 slashing damage from whipping branches.\n\n**Roots and Vines.** At the end of each of your turns, one creature of your choice that is on the ground in the cube must succeed on a Strength saving throw or become restrained until the spell ends. A restrained creature can use an action to make a Strength (Athletics) check against your spell save DC, ending the effect on itself on a success.\n\n**Rocks.** As a bonus action on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes 3d8 nonmagical bludgeoning damage, and it must succeed on a Strength saving throw or fall prone."],
@@ -6672,7 +6672,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["necromancy"],
     "level": [5],
-    "dice": ["2d8", "4d8", "4d8", "1d8"]
+    "dice": ["2d8", "4d8", "1d8"]
   },
   "Far Step": {
     "text": ["**5th-level conjuration**\n\n**Casting Time**: 1 bonus action\n\n**Range**: Self\n\n**Components**: V\n\n**Duration**: Concentration, up to 1 minute\n\nYou teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again."],
@@ -6762,7 +6762,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["illusion"],
     "level": [6],
-    "dice": ["5d10", "5d10", "10d10"]
+    "dice": ["5d10", "10d10"]
   },
   "Negative Energy Flood": {
     "text": ["**5th-level necromancy**\n\n**Casting Time**: 1 action\n\n**Range**: 60 feet\n\n**Components**: V, M (a broken bone and a square of black silk)\n\n**Duration**: Instantaneous\n\nYou send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the *Monster Manual*.\n\nIf you target an undead with this spell, the target doesn’t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points."],
@@ -6777,7 +6777,7 @@
     "classes": ["warlock", "wizard"],
     "school": ["necromancy"],
     "level": [5],
-    "dice": ["5d12", "5d12"]
+    "dice": ["5d12"]
   },
   "Power Word Pain": {
     "text": ["**7th-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: 60 feet\n\n**Components**: V\n\n**Duration**: Instantaneous\n\nYou speak a word of power that causes waves of intense pain to assail one creature you can see within range. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being charmed. \n\nWhile the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a spell, it must ﬁrst succeed on a Constitution saving throw, or the casting fails and the spell is wasted. \n\nA target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends."],
@@ -6882,7 +6882,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [5],
-    "dice": ["4d8", "4d8", "4d8", "1d8"]
+    "dice": ["4d8", "1d8"]
   },
   "Maddening Darkness": {
     "text": ["**8th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 150 feet\n\n**Components**: V, M (a drop of pitch mixed with a drop of mercury)\n\n**Duration**: Concentration, up to 10 minutes\n\nMagical darkness spreads from a point you choose within range to ﬁll a 60-foot-radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can’t see through this darkness. Non-magical light, as well as light created by spells of 8th level or lower, can't illuminate the area. \n\nShrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one."],
