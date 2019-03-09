@@ -88,6 +88,8 @@ spells = spellText %>% lapply(spellParse)
 
 class(spells) = append(class(spells),'spellList')
 
+names(spells) = spells %>% map_chr('name')
+
 # fix for immolation
 spells$Immolation$dice = c('8d6','3d6')
 

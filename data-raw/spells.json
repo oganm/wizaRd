@@ -660,7 +660,7 @@
     "dice": ["2d10"]
   },
   "Heroism": {
-    "text": ["**1st-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: Touch\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 1 minute\n\nA willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.\n\n**At Higher Levels**. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."],
+    "text": ["**1st-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: Touch\n\n**Components**: V, S\n\n**Duration**: Concentration, up to 1 minute\n\nA willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."],
     "name": ["Heroism"],
     "source": ["PHB.250", "SRD.154"],
     "tags": ["bard", "paladin", "level1", "enchantment"],
@@ -689,7 +689,7 @@
     "level": [1],
     "dice": ["1d6"]
   },
-  "Hunter’s Mark": {
+  "Hunter's Mark": {
     "text": ["**1st-level divination**\n\n**Casting Time**: 1 bonus action\n\n**Range**: 90 feet\n\n**Components**: V\n\n**Duration**: Concentration, up to 1 hour\n\nYou choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."],
     "name": ["Hunter's Mark"],
     "source": ["PHB.251", "SRD.155"],
@@ -1184,7 +1184,7 @@
     "level": [1],
     "dice": []
   },
-  "Tasha’s Hideous Laughter": {
+  "Tasha's Hideous Laughter": {
     "text": ["**1st-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (tiny tarts and a feather that is waved in the air)\n\n**Duration**: Concentration, up to 1 minute\n\nA creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn’t affected.\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target had advantage on the saving throw if it’s triggered by damage. On a success, the spell ends."],
     "name": ["Tasha's Hideous Laughter"],
     "source": ["PHB.280"],
@@ -1199,7 +1199,7 @@
     "level": [1],
     "dice": []
   },
-  "Tenser’s Floating Disk": {
+  "Tenser's Floating Disk": {
     "text": ["**1st-level conjuration (ritual)**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (a drop of mercury)\n\n**Duration**: 1 hour\n\nThis spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.\n\nThe disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. If can move across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 10 feet or more. For example, the disk can’t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.\n\nIf you move more than 100 feet away from the disk (typically because it can’t move around an obstacle to follow you), the spell ends."],
     "name": ["Tenser's Floating Disk"],
     "source": ["PHB.282"],
@@ -1485,7 +1485,7 @@
     "dice": []
   },
   "Spiritual Weapon": {
-    "text": ["**2nd-level evocation**\n\n**Casting Time**: 1 bonus action\n\n**Range**: 60 feet\n\n**Components**: V, S\n\n**Duration**: 1 minute\n\nYou create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\n\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it. The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell’s effect resemble that weapon.\n\n**At Higher Levels**. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd."],
+    "text": ["**2nd-level evocation**\n\n**Casting Time**: 1 bonus action\n\n**Range**: 60 feet\n\n**Components**: V, S\n\n**Duration**: 1 minute\n\nYou create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\n\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it. The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell’s effect resemble that weapon.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd."],
     "name": ["Spiritual Weapon"],
     "source": ["PHB.278", "SRD.182"],
     "tags": ["cleric", "paladin (conquest)", "level2", "evocation"],
@@ -1799,7 +1799,7 @@
     "level": [3],
     "dice": []
   },
-  "Crusader’s Mantle": {
+  "Crusader's Mantle": {
     "text": ["**3rd-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: V \n\n**Duration**: Concentration, up to 1 minute\n\nHoly power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack."],
     "name": ["Crusader's Mantle"],
     "source": ["PHB.230"],
@@ -2084,7 +2084,7 @@
     "level": [2],
     "dice": []
   },
-  "Leomund’s Tiny Hut": {
+  "Leomund's Tiny Hut": {
     "text": ["**3rd-level evocation (ritual)**\n\n**Casting Time**: 1 minute\n\n**Range**: Self (10-foot-radius hemisphere)\n\n**Components**: V, S, M (a small crystal bead)\n\n**Duration**: 8 hours\n\nA 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.\n\nNine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can’t extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.\n\nUntil the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."],
     "name": ["Leomund's Tiny Hut"],
     "source": ["PHB.255"],
@@ -3149,7 +3149,7 @@
     "level": [7],
     "dice": []
   },
-  "Mordenkainen’s Magnificent Mansion": {
+  "Mordenkainen's Magnificent Mansion": {
     "text": ["**7th-level conjuration**\n\n**Casting Time**: 1 minute\n\n**Range**: 300 feet\n\n**Components**: V, S, M (a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp)\n\n**Duration**: 24 hours\n\nYou conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.\n\nBeyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.\n\nYou can create any floor plan you like, but the space can’t exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to server a nine-course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can’t attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can’t leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance."],
     "name": ["Mordenkainen's Magnificent Mansion"],
     "source": ["PHB.261"],
@@ -3164,7 +3164,7 @@
     "level": [7],
     "dice": []
   },
-  "Mordenkainen’s Sword": {
+  "Mordenkainen's Sword": {
     "text": ["**7th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 60 feet\n\n**Components**: V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)\n\n**Duration**: Concentration, up to 1 minute\n\nYou create a sword-shaped plane of force that hovers within range. It lasts for the duration.\n\nWhen the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one."],
     "name": ["Mordenkainen's Sword"],
     "source": ["PHB.262"],
@@ -3779,7 +3779,7 @@
     "level": [5],
     "dice": []
   },
-  "Drawmij’s Instant Summons": {
+  "Drawmij's Instant Summons": {
     "text": ["**6th-level conjuration (ritual)**\n\n**Casting Time**: 1 minute\n\n**Range**: Touch\n\n**Components**: V, S, M (sapphire worth 1000 gp)\n\n**Duration**: Until dispelled\n\nYou touch an object weighing 10 pounds or less w hose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.\n\nAt any time thereafter, you can use your action to speak the item’s name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.\n\nIf another creature is holding or carrying the item, crushing the sapphire doesn’t transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.\n\n*[Dispel Magic](dispel-magic)* or a similar effect successfully applied to the sapphire ends this spell’s effect."],
     "name": ["Drawmij's Instant Summons"],
     "source": ["PHB.235"],
@@ -3854,7 +3854,7 @@
     "level": [2],
     "dice": []
   },
-  "Evard’s Black Tentacles": {
+  "Evard's Black Tentacles": {
     "text": ["**4th-level conjuration**\n\n**Casting Time**: 1 action\n\n**Range**: 90 feet\n\n**Components**: V, S, M (a piece of tentacle from a giant octopus or a giant squid)\n\n**Duration**: Concentration, up to 1 minute\n\nSquirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.\n\nWhen a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage.\n\nA creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."],
     "name": ["Evard's Black Tentacles"],
     "source": ["PHB.238"],
@@ -4049,7 +4049,7 @@
     "level": [4],
     "dice": []
   },
-  "Bigby’s Hand": {
+  "Bigby's Hand": {
     "text": ["**5th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 120 feet\n\n**Components**: V, S, M (an eggshell and a snakeskin glove)\n\n**Duration**: Concentration, up to 1 minute\n\nYou create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell’s duration, and it moves at your command, mimicking the movements of your own hand. \n\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn’t fill its space. \n\nWhen you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it. \n\n**Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.\n\n**Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand’s Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\n\n**Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand’s Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier.\n\n**Interposing Hand.** The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can’t move through the hand’s space if its Strength score is less than or equal to the hand’s Strength score. If its Strength score is higher than the hand’s Strength score, the target can move toward you through the hand’s space, but that space is difficult terrain for the target.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th."],
     "name": ["Bigby's Hand"],
     "source": ["PHB.218"],
@@ -4125,7 +4125,7 @@
     "dice": []
   },
   "Glyph of Warding": {
-    "text": ["**3rd-level abjuration**\n\n**Casting Time**: 1 hour\n\n**Range**: Touch\n\n**Components**: V, S, M, (incense and powdered diamond worth at least 200 gp, which the spell consumes)\n\n**Duration**: Until dispelled or triggered\n\nWhen you cast this spell, you inscribe a glyph that affects other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.\n\nThe glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found. \n\nYou decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends. \n\nYou can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don’t trigger the glyph, such as those who say a certain password. \n\nWhen you inscribe the glyph, choose *explosive runes* or a *spell glyph*.\n \n**Explosive Runes.** When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one. \n\n**Spell Glyph.** You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage of an *explosive runes* glyph increases by 1d8 for each slot level above 3rd. If you create a *spell glyph*, you can store any spell of up to the same level as the slot you use for the *glyph of warding*."],
+    "text": ["**3rd-level abjuration**\n\n**Casting Time**: 1 hour\n\n**Range**: Touch\n\n**Components**: V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)\n\n**Duration**: Until dispelled or triggered\n\nWhen you cast this spell, you inscribe a glyph that affects other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.\n\nThe glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found. \n\nYou decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends. \n\nYou can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don’t trigger the glyph, such as those who say a certain password. \n\nWhen you inscribe the glyph, choose *explosive runes* or a *spell glyph*.\n \n**Explosive Runes.** When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one. \n\n**Spell Glyph.** You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage of an *explosive runes* glyph increases by 1d8 for each slot level above 3rd. If you create a *spell glyph*, you can store any spell of up to the same level as the slot you use for the *glyph of warding*."],
     "name": ["Glyph of Warding"],
     "source": ["PHB.245", "SRD.149"],
     "tags": ["bard", "cleric", "wizard", "level3", "abjuration"],
@@ -4304,7 +4304,7 @@
     "level": [2],
     "dice": ["2d8"]
   },
-  "Heroes’ Feast": {
+  "Heroes' Feast": {
     "text": ["**6th-level conjuration**\n\n**Casting Time**: 10 minutes\n\n**Range**: 30 feet\n\n**Components**: V, S, M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)\n\n**Duration**: Instantaneous\n\nYou bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve creatures can partake of the feast.\n\nA creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours"],
     "name": ["Heroes' Feast"],
     "source": ["PHB.251", "SRD.154"],
@@ -4394,7 +4394,7 @@
     "level": [5],
     "dice": []
   },
-  "Leomund’s Secret Chest": {
+  "Leomund's Secret Chest": {
     "text": ["**4th-level conjuration**\n\n**Casting Time**: 1 action\n\n**Range**: Touch\n\n**Components**: V, S, M (an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp)\n\n**Duration**: Instantaneous\n\nYou hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).\n\nWhile the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.\n\nAfter 60 days, there is a cumulative 5 percent chance per day that the spell’s effect ends. This effect ends if you cast this spell again, if the smaller replica chest is destroyed, or if you choose to end the spell as an action. If the spell ends and the larger chest is on the Ethereal Plane, it is irretrievably lost."],
     "name": ["Leomund's Secret Chest"],
     "source": ["PHB.254"],
@@ -4559,7 +4559,7 @@
     "level": [6],
     "dice": []
   },
-  "Melf’s Acid Arrow": {
+  "Melf's Acid Arrow": {
     "text": ["**2nd-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 90 feet\n\n**Components**: V, S, M (powdered rhubarb leaf and an adder’s stomach)\n\n**Duration**: Instantaneous\n\nA shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn. \n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd. "],
     "name": ["Melf's Acid Arrow"],
     "source": ["PHB.259"],
@@ -4649,7 +4649,7 @@
     "level": [2],
     "dice": ["2d10"]
   },
-  "Mordenkainen’s Faithful Hound": {
+  "Mordenkainen's Faithful Hound": {
     "text": ["**4th-level conjuration**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (a tiny silver whistle, a piece of bone, and a thread)\n\n**Duration**: 8 hours\n\nYou conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.\n\nThe hound is invisible to all creatures except you and can’t be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.\n\nAt the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound’s attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage."],
     "name": ["Mordenkainen's Faithful Hound"],
     "source": ["PHB.261"],
@@ -4664,7 +4664,7 @@
     "level": [4],
     "dice": ["1d20+SPELL+PROF", "4d8"]
   },
-  "Mordenkainen’s Private Sanctum": {
+  "Mordenkainen's Private Sanctum": {
     "text": ["**4th-level abjuration**\n\n**Casting Time**: 10 minutes\n\n**Range**: 120 feet\n\n**Components**: V, S, M (a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite)\n\n**Duration**: 24 hours\n\nYou make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.\n\nWhen you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:\n\n* Sound can’t pass through the barrier at the edge of the warded area.\n* The barrier of the warded area appears dark and foggy, preventing vision (including darkvision) through it.\n* Sensors created by divination spells can’t appear inside the protected area or pass through the barrier at its perimeter.\n* Creatures in the area can’t be targeted by divination spells.\n* Nothing can teleport into or out of the warded area.\n* Planar travel is blocked within the warded area.\n\nCasting this spell on the same spot every day for a year makes this effect permanent.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level."],
     "name": ["Mordenkainen's Private Sanctum"],
     "source": ["PHB.262"],
@@ -4694,7 +4694,7 @@
     "level": [6],
     "dice": []
   },
-  "Nystul’s Magic Aura": {
+  "Nystul's Magic Aura": {
     "text": ["**2nd-level illusion**\n\n**Casting Time**: 1 action\n\n**Range**: Touch\n\n**Components**: V, S, M (a small square of silk)\n\n**Duration**: 24 hours\n\nYou place an illusion on a creature or an object you touch so that divination spells reveal false information about it. The target can be a willing creature or an object that isn’t being carried or worn by another creature. \n\nWhen you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled.\n\n**False Aura.** You change the way the target appears to spells and magical effects, such as *[Detect Magic](detect-magic)*, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object’s magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.\n\n**Mask.** You change the way the target appears to spells and magical effects that detect creature types, such as a paladin’s Divine Sense or the trigger of a *[Symbol](symbol)* spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment."],
     "name": ["Nystul's Magic Aura"],
     "source": ["PHB.263"],
@@ -4709,7 +4709,7 @@
     "level": [2],
     "dice": []
   },
-  "Otiluke’s Freezing Sphere": {
+  "Otiluke's Freezing Sphere": {
     "text": ["**6th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 300 feet\n\n**Components**: V, S, M (a small crystal sphere)\n\n**Duration**: Instantaneous\n\nA frigid globe of cold energy streaks from your fingertips to a point of your choice within range, where it explodes in a 60-foot-radius sphere. Each creature within the area must make a Constitution saving throw. On a failed save, a creature takes 10d6 cold damage. On a successful save, it takes half as much damage.\n\nIf the globe strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice. A trapped creature can use an action to make a Strength check against your spell save DC to break free.\n\nYou can refrain from firing the globe after completing the spell, if you wish. A small globe about the size of a sling stone, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling’s normal range). It shatters on impact, with the same effect as the normal casting of the spell. You can also set the globe down without shattering it. After 1 minute, if the globe hasn’t already shattered, it explodes.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th."],
     "name": ["Otiluke's Freezing Sphere"],
     "source": ["PHB.263"],
@@ -4724,7 +4724,7 @@
     "level": [6],
     "dice": ["10d6", "1d6"]
   },
-  "Otiluke’s Resilient Sphere": {
+  "Otiluke's Resilient Sphere": {
     "text": ["**4th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)\n\n**Duration**: Concentration, up to 1 minute\n\nA sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.\n\nNothing—-not physical objects, energy, or other spell effects-—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can’t be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.\n\nThe sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s speed. Similarly, the globe can be picked up and moved by other creatures.\n\nA *[Disintegrate](disintegrate)* spell targeting the globe destroys it without harming anything inside it."],
     "name": ["Otiluke's Resilient Sphere"],
     "source": ["PHB.264"],
@@ -4739,7 +4739,7 @@
     "level": [4],
     "dice": ["10d6"]
   },
-  "Otto’s Irresistible Dance": {
+  "Otto's Irresistible Dance": {
     "text": ["**6th-level enchantment**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V\n\n**Duration**: Concentration, up to 1 minute\n\nChoose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can’t be charmed are immune to this spell.\n\nA dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends."],
     "name": ["Otto's Irresistible Dance"],
     "source": ["PHB.264"],
@@ -4904,7 +4904,7 @@
     "level": [5],
     "dice": []
   },
-  "Rary’s Telepathic Bond": {
+  "Rary's Telepathic Bond": {
     "text": ["**5th-level divination (ritual)**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (pieces of eggshell from two different kinds of creatures)\n\n**Duration**: 1 hour\n\nYou forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence."],
     "name": ["Rary's Telepathic Bond"],
     "source": ["PHB.270"],
@@ -5265,7 +5265,7 @@
     "dice": []
   },
   "Wall of Ice": {
-    "text": ["**6th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 120 feet\n\n**Components**: V, S, M (a small piece of quartz)\n\n**Duration**: Concentration, up to 10 minutes\n\nYou create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration.\n\nIf the wall cuts through a creature’s space when it appears, the creature within its area is pushed to one side of the wall and must make a Dexterity saving throw. On a failed save, the creature takes 10d6 cold damage, or half as much damage on a successful save.\n\nThe wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to fire damage. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the wall occupied. A creature moving through the sheet of frigid air for the first time on a turn must make a Constitution saving throw. That creature takes 5d6 cold damage on a failed save, or half as much damage on a successful one.\n\n**At Higher Levels**. When you cast this spell using a spell slot of 7th level or higher, the damage the wall deals when it appears increases by 2d6, and the damage from passing through the sheet of frigid air increases by 1d6, for each slot level above 6th."],
+    "text": ["**6th-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 120 feet\n\n**Components**: V, S, M (a small piece of quartz)\n\n**Duration**: Concentration, up to 10 minutes\n\nYou create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration.\n\nIf the wall cuts through a creature’s space when it appears, the creature within its area is pushed to one side of the wall and must make a Dexterity saving throw. On a failed save, the creature takes 10d6 cold damage, or half as much damage on a successful save.\n\nThe wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to fire damage. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the wall occupied. A creature moving through the sheet of frigid air for the first time on a turn must make a Constitution saving throw. That creature takes 5d6 cold damage on a failed save, or half as much damage on a successful one.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, the damage the wall deals when it appears increases by 2d6, and the damage from passing through the sheet of frigid air increases by 1d6, for each slot level above 6th."],
     "name": ["Wall of Ice"],
     "source": ["PHB.285", "SRD.190"],
     "tags": ["wizard", "level6", "evocation"],
@@ -5669,7 +5669,7 @@
     "level": [2],
     "dice": []
   },
-  "Aganazzar’s Scorcher": {
+  "Aganazzar's Scorcher": {
     "text": ["**2nd-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (a red dragon’s scale)\n\n**Duration**: Instantaneous\n\nA line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."],
     "name": ["Aganazzar's Scorcher"],
     "source": ["EE.15", "Xanathar.150"],
@@ -5849,7 +5849,7 @@
     "level": [5],
     "dice": ["6d6"]
   },
-  "Maximilian’s Earthen Grasp": {
+  "Maximilian's Earthen Grasp": {
     "text": ["**2nd-level transmutation**\n\n**Casting Time**: 1 action\n\n**Range**: 30 feet\n\n**Components**: V, S, M (a miniature hand sculpted from clay)\n\n**Duration**: Concentration, up to 1 minute\n\nYou choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell’s duration.\n\nAs an action, you can cause the hand to crush the restrained target, which must make a Strength saving throw. The target takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.\n\nTo break out, the restrained target can use its action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.\n\nAs an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either."],
     "name": ["Maximilian's Earthen Grasp"],
     "source": ["EE.20", "Xanathar.161"],
@@ -5879,7 +5879,7 @@
     "level": [6],
     "dice": []
   },
-  "Snilloc’s Snowball Swarm": {
+  "Snilloc's Snowball Swarm": {
     "text": ["**2nd-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: 90 feet\n\n**Components**: V, S, M (a piece of ice or a small white rock chip)\n\n**Duration**: Instantaneous\n\nA flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 cold damage on a failed save, or half as much damage on a successful one.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."],
     "name": ["Snilloc's Snowball Swarm"],
     "source": ["EE.22", "Xanathar.165"],
@@ -5969,7 +5969,7 @@
     "level": [7],
     "dice": ["10d6"]
   },
-  "Abi-Dalzim’s Horrid Wilting": {
+  "Abi-Dalzim's Horrid Wilting": {
     "text": ["**8th-level necromancy**\n\n**Casting Time**: 1 action\n\n**Range**: 150 feet\n\n**Components**: V, S, M (a bit of sponge)\n\n**Duration**: Instantaneous\n\nYou draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.\n\nNonmagical plants in the area that aren’t creatures, such as trees and shrubs, wither and die instantly."],
     "name": ["Abi-Dalzim's Horrid Wilting"],
     "source": ["EE.15", "Xanathar.150"],
@@ -5999,7 +5999,7 @@
     "level": [5],
     "dice": ["8d6", "3d6"]
   },
-  "Melf’s Minute Meteors": {
+  "Melf's Minute Meteors": {
     "text": ["**3rd-level evocation**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: V, S, M (niter, sulfur, and pine tar formed into a bead)\n\n**Duration**: Concentration, up to 10 minutes\n\nYou create six tiny meteors in your space. They float in the air and orbit you for the spell’s duration. When you cast the spell—and as a bonus action on each of your turns thereafter—you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd."],
     "name": ["Melf's Minute Meteors"],
     "source": ["EE.20", "Xanathar.161"],
@@ -6149,7 +6149,7 @@
     "level": [1],
     "dice": []
   },
-  "Dragon’s Breath": {
+  "Dragon's Breath": {
     "text": ["**2nd-level transmutation**\n\n**Casting Time**: 1 bonus action\n\n**Range**: Touch\n\n**Components**: V, S, M (a hot pepper)\n\n**Duration**: Concentration, up to 1 minute\n\nYou touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."],
     "name": ["Dragon's Breath"],
     "source": ["Xanathar.154"],
@@ -6854,7 +6854,7 @@
     "level": [5],
     "dice": ["8d6", "1d6"]
   },
-  "Tenser’s Transformation": {
+  "Tenser's Transformation": {
     "text": ["**6th-level transmutation**\n\n**Casting Time**: 1 action\n\n**Range**: Self\n\n**Components**: V, S, M (a few hairs from a bull)\n\n**Duration**: Concentration, up to 10 minutes\n\nYou endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can’t cast spells, and you gain the following benefits: \n\n- You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost. \n- You have advantage on attack rolls that you make with simple and martial weapons. \n- When you hit a target with a weapon attack, that target takes an extra 2d12 force damage. \n- You have proficiency with all armor, shields, simple weapons, and martial weapons. \n- You have proficiency in Strength and Constitution saving throws.\n- You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks. \n\nImmediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."],
     "name": ["Tenser's Transformation"],
     "source": ["Xanathar.168"],

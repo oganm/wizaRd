@@ -55,7 +55,7 @@ allSpells = seq_len(pageCount) %>% lapply(function(page){
 
         damageEffect =  spell %>% html_node('.spell-damage-effect') %>% html_text() %>% trimws()
 
-        out = list(name = name,
+        out = list(name = name %>% str_replace_all("’","'"),
                    level = level,
                    school = school,
                    components = components,
@@ -73,3 +73,18 @@ allSpells = seq_len(pageCount) %>% lapply(function(page){
 })
 allSpells = do.call(c,allSpells)
 saveRDS(allSpells,'dndbeyond.rds')
+
+devtools::load_all()
+
+names(spells)[!tolower(names(spells)) %in% tolower(names(allSpells))]
+
+missingBeyondSpells = names(allSpells)[!tolower(names(allSpells)) %in% tolower(names(spells))]
+
+splitSpells = strsplit(tolower(names(spells)),' ')
+
+missingBeyondSpells %>% strsplit(' ') %>%
+    sapply(function(x){
+        splitSpells %>% sapply(function(y){
+            all(tolower(x) %in% y)
+        }) %>% any
+    }) %>% {missingBeyondSpells[!.]} -> trulyMissingBeyondSpells
