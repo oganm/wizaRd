@@ -1,5 +1,8 @@
 library(rvest)
 library(glue)
+library(magrittr)
+library(stringr)
+library(readr)
 
 spellsPage1 = read_html('https://www.dndbeyond.com/spells?filter-class=0&filter-search=&page=1')
 
@@ -73,6 +76,7 @@ allSpells = seq_len(pageCount) %>% lapply(function(page){
 })
 allSpells = do.call(c,allSpells)
 saveRDS(allSpells,'dndbeyond.rds')
+allSpells %>% jsonlite::toJSON(pretty=TRUE) %>% writeLines('data-raw/spellDetails.json')
 
 devtools::load_all()
 
