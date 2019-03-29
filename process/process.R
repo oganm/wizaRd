@@ -93,6 +93,21 @@ names(spells) = spells %>% map_chr('name')
 # fix for immolation
 spells$Immolation$dice = c('8d6','3d6')
 
+dndbeyond = readRDS('dndbeyond.rds')
+
+for(i in seq_along(spells)){
+    name = names(spells)[i]
+
+    beyonddata = dndbeyond[tolower(names(dndbeyond)) %in% tolower(name)] %>% {.[[1]]}
+
+    spells[[i]]$range = beyonddata$range
+    spells[[i]]$aoe = beyonddata$aoe
+    spells[[i]]$attackSave = beyonddata$attackSave
+    spells[[i]]$damageEffect = beyonddata$damageEffect
+
+}
+
+
 devtools::use_data(spells,overwrite=TRUE)
 spells %>% jsonlite::toJSON(pretty=TRUE) %>% writeLines('data-raw/spells.json')
 
