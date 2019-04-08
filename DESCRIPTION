@@ -8,7 +8,8 @@ Imports:
     diceSyntax,
     magrittr,
     purrr,
-    stringr
+    stringr,
+    staplr
 Remotes:
     oganm/diceSyntax
 License: MIT

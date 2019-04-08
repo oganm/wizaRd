@@ -28,6 +28,9 @@ allSpells = seq_len(pageCount) %>% lapply(function(page){
 
         duration = spell %>% html_node('.spell-duration') %>% html_text() %>% trimws()
         range = spell %>% html_node('.range-distance') %>% html_text() %>% trimws()
+        if(is.na(range)){
+            range = spell %>% html_node('.spell-range') %>% html_text() %>% stringr::str_replace('\\(.*?\\)','') %>%  trimws()
+        }
 
         aoeTypes = c(square = '.i-aoe-square',
                      cube = '.i-aoe-cube',

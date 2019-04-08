@@ -18,7 +18,7 @@
     "components": ["S"],
     "castingTime": ["1 Reaction  *"],
     "duration": ["1 Round"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Acid (...)"]
@@ -90,7 +90,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Shapechanging"]
@@ -162,7 +162,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
@@ -174,7 +174,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
@@ -234,10 +234,22 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility (...)"]
+  },
+  "Arcane Weapon": {
+    "name": ["Arcane Weapon"],
+    "level": ["1st"],
+    "school": ["Transmutation"],
+    "components": ["V, S"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Hour"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": [""]
   },
   "Arcanist's Magic Aura": {
     "name": ["Arcanist's Magic Aura"],
@@ -246,7 +258,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["24 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception"]
@@ -258,7 +270,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Cold"]
@@ -270,7 +282,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": ["STR Save"],
     "damageEffect": ["Necrotic"]
@@ -294,7 +306,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Foreknowledge"]
@@ -306,7 +318,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Healing (...)"]
@@ -318,7 +330,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -330,7 +342,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -342,7 +354,7 @@
     "components": ["V, S, M"],
     "castingTime": ["8 Hours"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Charmed"]
@@ -366,7 +378,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Force"]
@@ -390,7 +402,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -414,7 +426,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -426,7 +438,7 @@
     "components": ["S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -438,7 +450,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Debuff"]
@@ -486,7 +498,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Round"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Combat (...)"]
@@ -522,7 +534,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Radiant"]
@@ -546,7 +558,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -558,7 +570,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception (...)"]
@@ -594,7 +606,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Radiant"]
@@ -606,7 +618,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(15 ft cone)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire"]
@@ -678,7 +690,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -774,7 +786,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -798,7 +810,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -834,7 +846,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Round"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(15 ft cone)"],
     "attackSave": [""],
     "damageEffect": ["Control"]
@@ -858,7 +870,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Foreknowledge"]
@@ -870,7 +882,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Minute"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Environment (...)"]
@@ -894,7 +906,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Social"]
@@ -918,7 +930,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(60 ft cone)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Cold"]
@@ -954,7 +966,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(60 ft cone)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Additional"]
@@ -1038,7 +1050,7 @@
     "components": ["V"],
     "castingTime": ["1 Minute"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication (...)"]
@@ -1050,7 +1062,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["7 Days"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Blinded (...)"]
@@ -1062,7 +1074,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["10 Days"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -1074,7 +1086,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Creation"]
@@ -1110,7 +1122,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(5 miles sphere)"],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
@@ -1182,7 +1194,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Creation (...)"]
@@ -1242,7 +1254,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Radiant"]
@@ -1254,7 +1266,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Radiant"]
@@ -1266,7 +1278,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -1314,7 +1326,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -1350,7 +1362,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -1386,7 +1398,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Thunder (...)"]
@@ -1398,7 +1410,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -1410,7 +1422,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -1422,7 +1434,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -1434,7 +1446,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Detection (...)"]
@@ -1458,7 +1470,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Shapechanging"]
@@ -1482,7 +1494,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["CHA Save"],
     "damageEffect": ["Charmed (...)"]
@@ -1518,7 +1530,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Foreknowledge"]
@@ -1530,7 +1542,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Radiant"]
@@ -1590,7 +1602,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": ["(15 ft cone)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Acid (...)"]
@@ -1602,7 +1614,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection (...)"]
@@ -1614,7 +1626,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Communication (...)"]
@@ -1626,7 +1638,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["24 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": ["( *cube)"],
     "attackSave": [""],
     "damageEffect": ["Debuff (...)"]
@@ -1722,7 +1734,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Acid (...)"]
@@ -1734,7 +1746,7 @@
     "components": ["S"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Creation (...)"]
@@ -1770,7 +1782,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -1794,7 +1806,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["STR Save"],
     "damageEffect": ["Piercing"]
@@ -1842,7 +1854,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -1866,7 +1878,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Movement"]
@@ -1878,7 +1890,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Unconscious (...)"]
@@ -1926,7 +1938,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -1938,7 +1950,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Teleportation"]
@@ -1950,7 +1962,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft cone)"],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Frightened"]
@@ -1986,7 +1998,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Blinded (...)"]
@@ -2034,7 +2046,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["1 Day"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -2082,7 +2094,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Fire (...)"]
@@ -2118,7 +2130,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Fire"]
@@ -2130,7 +2142,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Fire"]
@@ -2190,7 +2202,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Minute"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": [""]
@@ -2202,7 +2214,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Movement"]
@@ -2226,7 +2238,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["1 Day"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [],
     "attackSave": [""],
     "damageEffect": ["Radiant (...)"]
@@ -2250,7 +2262,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2262,7 +2274,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2286,7 +2298,7 @@
     "components": ["S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2334,7 +2346,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2370,7 +2382,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Days"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Warding"]
@@ -2394,7 +2406,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Social"]
@@ -2406,7 +2418,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Negation (...)"]
@@ -2418,7 +2430,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Until Dispelled or Triggered"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Acid (...)"]
@@ -2430,7 +2442,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -2466,7 +2478,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Invisible"]
@@ -2478,7 +2490,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -2514,7 +2526,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2526,7 +2538,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["24 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
@@ -2538,7 +2550,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -2574,7 +2586,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["STR Save"],
     "damageEffect": ["Control"]
@@ -2586,7 +2598,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Piercing"]
@@ -2598,7 +2610,7 @@
     "components": ["V, S, M"],
     "castingTime": ["24 Hours"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": ["(60 ft  *sphere)"],
     "attackSave": ["CHA Save"],
     "damageEffect": ["Buff (...)"]
@@ -2718,7 +2730,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2778,7 +2790,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(30 ft sphere)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Blinded"]
@@ -2790,7 +2802,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Radiant (...)"]
@@ -2862,7 +2874,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -2886,7 +2898,7 @@
     "components": ["S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["10 Days"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication"]
@@ -2958,7 +2970,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Necrotic"]
@@ -2982,7 +2994,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection (...)"]
@@ -2994,7 +3006,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire (...)"]
@@ -3006,7 +3018,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(15 ft  *cone)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Cold"]
@@ -3018,7 +3030,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Prone"]
@@ -3030,7 +3042,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(15 ft  *cube)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Bludgeoning"]
@@ -3042,7 +3054,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Invisible"]
@@ -3054,7 +3066,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Warding"]
@@ -3066,7 +3078,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Movement"]
@@ -3090,7 +3102,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -3102,7 +3114,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -3114,7 +3126,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -3126,7 +3138,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -3162,7 +3174,7 @@
     "components": ["V, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": ["(20 ft  *sphere)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Creation (...)"]
@@ -3174,7 +3186,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Lightning (...)"]
@@ -3186,7 +3198,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(100 ft line)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Lightning"]
@@ -3210,7 +3222,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -3222,7 +3234,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -3234,7 +3246,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -3246,7 +3258,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -3282,7 +3294,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -3318,7 +3330,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["CHA Save"],
     "damageEffect": ["Control"]
@@ -3354,7 +3366,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Bludgeoning"]
@@ -3366,7 +3378,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Bludgeoning (...)"]
@@ -3486,7 +3498,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Movement"]
@@ -3510,7 +3522,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire"]
@@ -3522,7 +3534,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -3582,7 +3594,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["24 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -3618,7 +3630,7 @@
     "components": ["V, S"],
     "castingTime": ["10 Minutes"],
     "duration": ["10 Days"],
-    "range": [null],
+    "range": ["Sight"],
     "aoe": ["(1 mile square)"],
     "attackSave": [""],
     "damageEffect": ["Control"]
@@ -3630,7 +3642,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception (...)"]
@@ -3642,7 +3654,7 @@
     "components": ["S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception"]
@@ -3654,7 +3666,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Teleportation"]
@@ -3774,7 +3786,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception"]
@@ -3786,7 +3798,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["24 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception"]
@@ -3834,7 +3846,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -3918,7 +3930,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["CHA Save"],
     "damageEffect": ["Banishment (...)"]
@@ -3966,7 +3978,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -4038,7 +4050,7 @@
     "components": ["S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Acid"]
@@ -4050,7 +4062,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Warding"]
@@ -4062,7 +4074,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(60 ft cone)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire (...)"]
@@ -4098,7 +4110,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Fire"]
@@ -4134,7 +4146,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -4146,7 +4158,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -4158,7 +4170,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -4206,7 +4218,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -4266,7 +4278,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -4278,7 +4290,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -4290,7 +4302,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -4314,7 +4326,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -4326,7 +4338,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -4350,7 +4362,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -4362,7 +4374,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -4422,7 +4434,7 @@
     "components": ["V, S, M"],
     "castingTime": ["10 Minutes"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Detection"]
@@ -4434,7 +4446,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Fire (...)"]
@@ -4446,7 +4458,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -4458,7 +4470,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -4482,7 +4494,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Round"],
-    "range": [null],
+    "range": ["Unlimited"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication"]
@@ -4494,7 +4506,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception"]
@@ -4506,7 +4518,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Psychic"]
@@ -4518,7 +4530,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Necrotic"]
@@ -4542,7 +4554,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Shapechanging"]
@@ -4566,7 +4578,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Reaction  *"],
     "duration": ["1 Round"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Warding"]
@@ -4590,7 +4602,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Bludgeoning"]
@@ -4602,7 +4614,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Lightning"]
@@ -4650,7 +4662,7 @@
     "components": ["V, S, M"],
     "castingTime": ["12 Hours"],
     "duration": ["Until Dispelled"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Deception (...)"]
@@ -4662,7 +4674,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -4674,7 +4686,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Sight"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication (...)"]
@@ -4722,7 +4734,7 @@
     "components": ["S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Restrained"]
@@ -4758,7 +4770,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -4770,7 +4782,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication (...)"]
@@ -4794,7 +4806,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication (...)"]
@@ -4806,7 +4818,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -4830,7 +4842,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Radiant (...)"]
@@ -4854,7 +4866,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Psychic"]
@@ -4890,7 +4902,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Control"]
@@ -4902,7 +4914,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -4914,7 +4926,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Sight"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Thunder (...)"]
@@ -4974,7 +4986,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(60 ft line)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Radiant"]
@@ -4998,7 +5010,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff"]
@@ -5022,7 +5034,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["Until Dispelled or Triggered"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": ["(60 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Necrotic"]
@@ -5082,7 +5094,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["24 Hours"],
-    "range": [null],
+    "range": ["Unlimited"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication"]
@@ -5142,7 +5154,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -5202,7 +5214,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["STR Save"],
     "damageEffect": ["Thunder"]
@@ -5214,7 +5226,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(15 ft cube)"],
     "attackSave": ["CON Save"],
     "damageEffect": ["Thunder"]
@@ -5238,7 +5250,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Control"]
@@ -5250,7 +5262,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Minute"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -5262,7 +5274,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Minute"],
     "duration": ["8 Hours"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Utility"]
@@ -5286,7 +5298,7 @@
     "components": ["V, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Communication (...)"]
@@ -5322,7 +5334,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Movement (...)"]
@@ -5346,7 +5358,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Hour"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Healing"]
@@ -5358,7 +5370,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection"]
@@ -5382,7 +5394,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Minute"],
     "duration": ["6 Rounds"],
-    "range": [null],
+    "range": ["Sight"],
     "aoe": [null],
     "attackSave": ["STR Save"],
     "damageEffect": ["Bludgeoning"]
@@ -5406,7 +5418,7 @@
     "components": ["V, S"],
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Necrotic"]
@@ -5538,7 +5550,7 @@
     "components": ["V, S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
-    "range": [null],
+    "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -5550,7 +5562,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": ["(10 ft sphere)"],
     "attackSave": [""],
     "damageEffect": ["Deafened"]
@@ -5658,7 +5670,7 @@
     "components": ["V"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -5718,7 +5730,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Psychic"]
@@ -5730,7 +5742,7 @@
     "components": ["V"],
     "castingTime": ["1 Bonus Action"],
     "duration": ["1 Minute"],
-    "range": [null],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Force"]
