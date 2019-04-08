@@ -51,6 +51,8 @@ spellParse = function(text){
     spell$castingTime = text %>% str_extract('(?<=Casting\\sTime\\*\\*:\\s).*?(?=\n)')
     spell$components = text %>% str_extract('(?<=Components\\*\\*:\\s).*?(?=\n)') %>%
         str_extract_all(ogbox::regexMerge(components)) %>%{.[[1]]}
+    spell$material =  text %>% str_extract('(?<=Components\\*\\*:\\s).*?(?=\n)') %>%
+        str_extract('(?<=M \\().*?(?=\\))')
     spell$duration = text %>% str_extract('(?<=Duration\\*\\*:\\s).*?(?=\n)') %>% str_split(',') %>%{.[[1]]}
     spell$ritual = 'ritual' %in% spell$tags
     spell$classes  = spell$tags[grepl(ogbox::regexMerge(classNames),spell$tags)]
