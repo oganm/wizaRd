@@ -5106,7 +5106,7 @@
     "school": ["abjuration"],
     "level": [6],
     "dice": ["5d10"],
-    "aoe": [],
+    "aoe": ["(40,000 ft2)"],
     "attackSave": [""],
     "damageEffect": ["Radiant (...)"]
   },
@@ -5334,7 +5334,7 @@
     "school": ["abjuration"],
     "level": [6],
     "dice": [],
-    "aoe": [],
+    "aoe": ["(2,500 ft2)"],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
   },

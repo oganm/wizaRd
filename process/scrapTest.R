@@ -39,21 +39,25 @@ allSpells = seq_len(pageCount) %>% lapply(function(page){
                      cylinder = '.i-aoe-cylinder',
                      line = '.i-aoe-line')
 
-        aoe = spell %>% html_node('.aoe-size')
-        if(length(aoe) == 0){
+        aoe_html = spell %>% html_node('.aoe-size')
+        if(length(aoe_html) == 0){
             aoe = NA
         } else{
             aoe = aoeTypes %>% sapply(function(type){
-                aoeType = aoe %>% html_node(type)
+                aoeType = aoe_html %>% html_node(type)
                 if(length(aoeType)>0){
-                    out = aoe %>% html_text()
+                    out = aoe_html %>% html_text()
                     return(out)
 
                 }
                 return(NULL)
 
             }) %>% {.[!sapply(.,is.null)]} %>% unlist %>%
-            {stringr::str_replace(.,'\\)',glue(names(.),')'))}
+                {stringr::str_replace(.,'\\)',glue(names(.),')'))}
+
+            if(length(aoe) == 0){
+                aoe = aoe_html %>% html_text() %>% trimws()
+            }
         }
 
 

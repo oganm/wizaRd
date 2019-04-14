@@ -2239,7 +2239,7 @@
     "castingTime": ["10 Minutes"],
     "duration": ["1 Day"],
     "range": ["Touch"],
-    "aoe": [],
+    "aoe": ["(40,000 ft2)"],
     "attackSave": [""],
     "damageEffect": ["Radiant (...)"]
   },
@@ -2539,7 +2539,7 @@
     "castingTime": ["10 Minutes"],
     "duration": ["24 Hours"],
     "range": ["Touch"],
-    "aoe": [],
+    "aoe": ["(2,500 ft2)"],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
   },
