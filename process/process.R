@@ -93,7 +93,34 @@ class(spells) = append(class(spells),'spellList')
 names(spells) = spells %>% map_chr('name')
 
 # fix for immolation
-spells$Immolation$dice = c('8d6','3d6')
+spells$Immolation$dice = c('8d6','4d6')
+
+
+# mark scaling dice for cantrips
+spells$`Acid Splash`$dice = 'CANd6'
+spells$`Chill Touch`$dice = 'CANd8'
+spells$`Eldritch Blast`$dice = 'CANd10'
+spells$`Fire Bolt`$dice = 'CANd10'
+spells$`Poison Spray`$dice = 'CANd12'
+spells$`Produce Flame`$dice = 'CANd8'
+spells$`Ray of Frost`$dice = 'CANd8'
+spells$`Sacred Flame`$dice = 'CANd8'
+# spells$Shillelagh$dice = 'CANd8+SPELL' # doesn't scale
+spells$`Shocking Grasp`$dice = 'CANd8'
+spells$`Thorn Whip`$dice = 'CANd6'
+spells$`Vicious Mockery`$dice = 'CANd4'
+spells$Thunderclap$dice = 'CANd6'
+spells$`Create Bonfire`$dice = 'CANd8'
+spells$Frostbite$dice = 'CANd6'
+# spells$`Magic Stone`$dice = 'CANd6+SPELL' # doesn't scale
+spells$`Booming Blade`$dice = c('CANd8','BLDd8')
+spells$`Green-Flame Blade`$dice = c('BLDd8+SPELL','BLDd8')
+spells$`Lightning Lure`$dice = 'CANd8'
+spells$`Sword Burst`$dice = 'CANd6'
+spells$Infestation$dice= c('1d4','CANd6')
+spells$`Toll the Dead`$dice = c('CANd8','CANd12')
+spells$`Primal Savagery`$dice = 'CANd10'
+spells$`Word of Radiance`$dice = 'CANd6'
 
 dndbeyond = readRDS('dndbeyond.rds')
 
@@ -109,8 +136,15 @@ for(i in seq_along(spells)){
 
 }
 
+# scalingSpells = c('Acid Splash','Chill Touch','Eldritch Blast','Fire Bolt',
+#                   'Poison Spray','Poison Spray','Produce Flame','Ray of Frost',
+#                   'Sacred Flame','Shillelagh','Shocking Grasp','Thorn Whip',
+#                   'Vicious Mockery','Thunderclap','Create Bonfire','Frostbite',
+#                   'Magic Stone','Booming Blade','Green-Flame Blade','Lightning Lure',
+#                   'Sword Burst','Infestation','Toll the Dead','Primal Savagery',
+#                   'Word of Radiance')
 
-devtools::use_data(spells,overwrite=TRUE)
+usethis::use_data(spells,overwrite=TRUE)
 spells %>% jsonlite::toJSON(pretty=TRUE) %>% writeLines('data-raw/spells.json')
 
 spells %>% map('dice') %>% jsonlite::toJSON(pretty = TRUE) %>% writeLines('data-raw/spelldice.json')
