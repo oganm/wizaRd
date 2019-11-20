@@ -5,7 +5,10 @@ print.spell = function(spell){
     cat(spell$dice)
     cat('\n')
     if(length(spell$dice) > 0){
-        results = spell$dice %>% gsub('SPELL|PROF|\\+SPELL|\\+PROF','',.) %>% sapply(diceSyntax::roll)
+        results = spell$dice %>% gsub('SPELL|PROF|\\+SPELL|\\+PROF','',.) %>%
+            gsub('CAN','1',.) %>%
+            gsub('BLD','0',.) %>%
+            sapply(diceSyntax::roll)
         print(results)
     }
 }

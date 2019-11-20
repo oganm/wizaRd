@@ -13,7 +13,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["conjuration"],
     "level": [0],
-    "dice": ["1d6"],
+    "dice": ["CANd6"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Acid"]
@@ -203,7 +203,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["necromancy"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Necrotic"]
@@ -507,7 +507,7 @@
     "classes": ["warlock"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d10"],
+    "dice": ["CANd10"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Force"]
@@ -659,7 +659,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d10"],
+    "dice": ["CANd10"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Fire"]
@@ -1134,7 +1134,7 @@
     "classes": ["druid", "sorcerer", "warlock", "wizard"],
     "school": ["conjuration"],
     "level": [0],
-    "dice": ["1d12"],
+    "dice": ["CANd12"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Poison"]
@@ -1172,7 +1172,7 @@
     "classes": ["druid"],
     "school": ["conjuration"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Fire"]
@@ -1229,7 +1229,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": [null],
     "attackSave": ["Ranged"],
     "damageEffect": ["Cold"]
@@ -1305,7 +1305,7 @@
     "classes": ["cleric"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Radiant"]
@@ -1419,7 +1419,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Lightning"]
@@ -1571,7 +1571,7 @@
     "classes": ["druid"],
     "school": ["transmutation"],
     "level": [0],
-    "dice": ["1d6"],
+    "dice": ["CANd6"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Piercing"]
@@ -1666,7 +1666,7 @@
     "classes": ["bard"],
     "school": ["enchantment"],
     "level": [0],
-    "dice": ["1d4"],
+    "dice": ["CANd4"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Psychic"]
@@ -6929,7 +6929,7 @@
     "classes": ["bard", "druid", "sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d6"],
+    "dice": ["CANd6"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Thunder"]
@@ -6986,7 +6986,7 @@
     "classes": ["druid", "sorcerer", "warlock", "wizard"],
     "school": ["conjuration"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": ["(5 ft cube)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire"]
@@ -7005,7 +7005,7 @@
     "classes": ["druid", "sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d6"],
+    "dice": ["CANd6"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Cold"]
@@ -7594,7 +7594,7 @@
     "classes": ["sorcerer", "wizard"],
     "school": ["evocation"],
     "level": [5],
-    "dice": ["8d6", "3d6"],
+    "dice": ["8d6", "4d6"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire (...)"]
@@ -7689,7 +7689,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8", "BLDd8"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Thunder (...)"]
@@ -7708,7 +7708,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["BLDd8+SPELL", "BLDd8"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Fire (...)"]
@@ -7727,7 +7727,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d8"],
+    "dice": ["CANd8"],
     "aoe": [null],
     "attackSave": ["STR Save"],
     "damageEffect": ["Lightning"]
@@ -7746,7 +7746,7 @@
     "classes": ["sorcerer", "warlock", "wizard"],
     "school": ["conjuration"],
     "level": [0],
-    "dice": ["1d6"],
+    "dice": ["CANd6"],
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Force"]
@@ -7841,7 +7841,7 @@
     "classes": ["druid", "sorcerer", "warlock", "wizard"],
     "school": ["conjuration"],
     "level": [0],
-    "dice": ["1d6", "1d8"],
+    "dice": ["1d4", "CANd6"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Poison"]
@@ -7974,7 +7974,7 @@
     "classes": ["cleric", "warlock", "wizard"],
     "school": ["necromancy"],
     "level": [0],
-    "dice": ["1d8", "1d12"],
+    "dice": ["CANd8", "CANd12"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Necrotic"]
@@ -8202,7 +8202,7 @@
     "classes": ["druid"],
     "school": ["transmutation"],
     "level": [0],
-    "dice": ["1d10"],
+    "dice": ["CANd10"],
     "aoe": [null],
     "attackSave": ["Melee"],
     "damageEffect": ["Acid"]
@@ -8354,7 +8354,7 @@
     "classes": ["cleric"],
     "school": ["evocation"],
     "level": [0],
-    "dice": ["1d6", "2d6", "3d6", "4d6"],
+    "dice": ["CANd6"],
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Radiant"]
