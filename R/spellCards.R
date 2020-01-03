@@ -1,5 +1,6 @@
 #' @export
-spellCardsMP = function(spells, file, nonSRD = TRUE){
+spellCardsMP = function(spells, file, class = ''){
+    nonSRD = FALSE
     card_file =  system.file('spell_cardsMP.pdf',package = 'wizaRd')
     fields = staplr::get_fields(card_file)
 
@@ -19,6 +20,7 @@ spellCardsMP = function(spells, file, nonSRD = TRUE){
         for(i in seq_along(spell_page)){
             spell = spell_page[[i]]
             spell_fields[[paste0('Name',i)]]$value = spell$name
+            spell_fields[[paste0('Class',i)]]$value = class
             if(!is.null(spell$source) && any(grepl("SRD",spell$source)) || nonSRD){
                 spell_fields[[paste0("Level",i)]]$value = spell$level
                 spell_fields[[paste0("School",i)]]$value = spell$school
@@ -85,42 +87,42 @@ spellCards =  function(spells, file, nonSRD = TRUE){
         for(i in seq_along(spell_page)){
             spell = spell_page[[i]]
             spell_fields[[paste0('Spell Title ',i)]]$value = spell$name
+            spell_fields[[paste0("Spell Level ",i)]]$value =
+                switch(as.character(spell$level),
+                       "0" = 'CANTRIP',
+                       "1" = "1ST-LEVEL",
+                       "2" = "2ND-LEVEL",
+                       "3" = "3RD-LEVEL",
+                       "4" = "4TH-LEVEL",
+                       "5" = "5TH-LEVEL",
+                       "6" = "6TH-LEVEL",
+                       "7" = "7TH-LEVEL",
+                       "8" = "8TH-LEVEL",
+                       "9" = "9TH-LEVEL")
+
+            spell_fields[[paste0("spell type ",i)]]$value = toupper(spell$school)
+
+            componentOptions = spell_fields[[paste0("components ",i)]]$value %>% levels %>% trimws %>% stringr::str_replace("\\*",'') %>% stringr::str_split(', ')
+
+            spell_fields[[paste0("components ",i)]]$value = componentOptions %>%
+                sapply(function(x){all(x %in% spell$components) & all(spell$components %in% x)}) %>%
+                {levels(spell_fields[[paste0("components ",i)]]$value)[.]}
+
+            spell_fields[[paste0("CASTING TIME_",i)]]$value = spell$castingTime
+            if(is.na(spell$aoe)){
+                spell_fields[[paste0("RANGE_",i)]]$value = spell$range
+            }else{
+                spell_fields[[paste0("RANGE_",i)]]$value = paste(spell$range,spell$aoe)
+            }
+            spell_fields[[paste0("DURATION_",i)]]$value = paste(spell$duration,collapse= ' ')
+
+            spellBody =
+                stringr::str_replace(spell$text,pattern = '^(.|\n)*?Duration.*?\n\n','')
+
+            if(!is.na(spell$material)){
+                spellBody = paste0("Materials: ",spell$material,'\n\n',spellBody)
+            }
             if(!is.null(spell$source) && any(grepl("SRD",spell$source)) || nonSRD){
-                spell_fields[[paste0("Spell Level ",i)]]$value =
-                    switch(as.character(spell$level),
-                           "0" = 'CANTRIP',
-                           "1" = "1ST-LEVEL",
-                           "2" = "2ND-LEVEL",
-                           "3" = "3RD-LEVEL",
-                           "4" = "4TH-LEVEL",
-                           "5" = "5TH-LEVEL",
-                           "6" = "6TH-LEVEL",
-                           "7" = "7TH-LEVEL",
-                           "8" = "8TH-LEVEL",
-                           "9" = "9TH-LEVEL")
-
-                spell_fields[[paste0("spell type ",i)]]$value = toupper(spell$school)
-
-                componentOptions = spell_fields[[paste0("components ",i)]]$value %>% levels %>% trimws %>% stringr::str_replace("\\*",'') %>% stringr::str_split(', ')
-
-                spell_fields[[paste0("components ",i)]]$value = componentOptions %>%
-                    sapply(function(x){all(x %in% spell$components) & all(spell$components %in% x)}) %>%
-                    {levels(spell_fields[[paste0("components ",i)]]$value)[.]}
-
-                spell_fields[[paste0("CASTING TIME_",i)]]$value = spell$castingTime
-                if(is.na(spell$aoe)){
-                    spell_fields[[paste0("RANGE_",i)]]$value = spell$range
-                }else{
-                    spell_fields[[paste0("RANGE_",i)]]$value = paste(spell$range,spell$aoe)
-                }
-                spell_fields[[paste0("DURATION_",i)]]$value = paste(spell$duration,collapse= ' ')
-
-                spellBody =
-                    stringr::str_replace(spell$text,pattern = '^(.|\n)*?Duration.*?\n\n','')
-
-                if(!is.na(spell$material)){
-                    spellBody = paste0("Materials: ",spell$material,'\n\n',spellBody)
-                }
                 spellBody %>%
                     stringr::str_replace_all('•|\u{2022}','-') %>%
                     stringr::str_replace_all('(½)|(\u{00BD})','1/2') %>%
