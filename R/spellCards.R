@@ -34,17 +34,17 @@ spellCardsMP = function(spells, file, class = ''){
                 spell_fields[[paste0("Duration",i)]]$value = paste(spell$duration,collapse= ' ')
                 spell_fields[[paste0("Body",i)]]$value =
                     stringr::str_replace(spell$text,pattern = '^(.|\n)*?Duration.*?\n\n','') %>%
-                    stringr::str_replace_all('•|\u{2022}','-') %>%
-                    stringr::str_replace_all('(½)|(\u{00BD})','1/2') %>%
-                    stringr::str_replace_all('(¾)|(\u{00BE})','3/4') %>%
-                    stringr::str_replace_all('(¼)|(\u{00BC})','1/4') %>%
-                    stringr::str_replace_all('(¼)|(\u{00BC})','1/4') %>%
-                    stringr::str_replace_all('(‘)|(\u{2018})',"'") %>%
-                    stringr::str_replace_all('(’)|(\u{2018})',"'") %>%
-                    stringr::str_replace_all('(—)|(\u{FE58})',"-") %>%
-                    stringr::str_replace_all('(“)|(\u{201C})','"') %>%
-                    stringr::str_replace_all('(”)|(\u{201D})','"') %>%
-                    stringr::str_replace_all('(→)|(\u{201D})','->')
+                    stringr::str_replace_all('\u{2022}','-') %>%
+                    stringr::str_replace_all('\u{00BD}','1/2') %>%
+                    stringr::str_replace_all('\u{00BE}','3/4') %>%
+                    stringr::str_replace_all('(\u{00BC})','1/4') %>%
+                    stringr::str_replace_all('(\u{00BC})','1/4') %>%
+                    stringr::str_replace_all('(\u{2018})',"'") %>%
+                    stringr::str_replace_all('(\u{2018})',"'") %>%
+                    stringr::str_replace_all('(\u{FE58})',"-") %>%
+                    stringr::str_replace_all('(\u{201C})','"') %>%
+                    stringr::str_replace_all('(\u{201D})','"') %>%
+                    stringr::str_replace_all('(\u{201D})','->')
                 spell_fields[[paste0("Page",i)]]$value = paste(spell$source,collapse =' ')
                 spell_fields[[paste0("Comp",i*3-2)]]$value = "V" %in%
                     spell$components %>% as.character %>%
@@ -124,17 +124,17 @@ spellCards =  function(spells, file, nonSRD = TRUE){
             }
             if(!is.null(spell$source) && any(grepl("SRD",spell$source)) || nonSRD){
                 spellBody %>%
-                    stringr::str_replace_all('•|\u{2022}','-') %>%
-                    stringr::str_replace_all('(½)|(\u{00BD})','1/2') %>%
-                    stringr::str_replace_all('(¾)|(\u{00BE})','3/4') %>%
-                    stringr::str_replace_all('(¼)|(\u{00BC})','1/4') %>%
-                    stringr::str_replace_all('(¼)|(\u{00BC})','1/4') %>%
-                    stringr::str_replace_all('(‘)|(\u{2018})',"'") %>%
-                    stringr::str_replace_all('(’)|(\u{2018})',"'") %>%
-                    stringr::str_replace_all('(—)|(\u{FE58})',"-") %>%
-                    stringr::str_replace_all('(“)|(\u{201C})','"') %>%
-                    stringr::str_replace_all('(”)|(\u{201D})','"') %>%
-                    stringr::str_replace_all('(→)|(\u{201D})','->')
+                    stringr::str_replace_all('\u{2022}','-') %>%
+                    stringr::str_replace_all('\u{00BD}','1/2') %>%
+                    stringr::str_replace_all('\u{00BE}','3/4') %>%
+                    stringr::str_replace_all('(\u{00BC})','1/4') %>%
+                    stringr::str_replace_all('(\u{00BC})','1/4') %>%
+                    stringr::str_replace_all('(\u{2018})',"'") %>%
+                    stringr::str_replace_all('(\u{2018})',"'") %>%
+                    stringr::str_replace_all('(\u{FE58})',"-") %>%
+                    stringr::str_replace_all('(\u{201C})','"') %>%
+                    stringr::str_replace_all('(\u{201D})','"') %>%
+                    stringr::str_replace_all('(\u{201D})','->')
 
 
                 spell_fields[[paste0("Spell description ",i)]]$value = spellBody
