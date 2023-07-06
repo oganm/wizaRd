@@ -11,7 +11,8 @@ Imports:
     stringr,
     staplr
 Remotes:
-    oganm/diceSyntax
+    oganm/diceSyntax, 
+    pridiltal/staplr
 License: MIT
 Encoding: UTF-8
 LazyData: true
