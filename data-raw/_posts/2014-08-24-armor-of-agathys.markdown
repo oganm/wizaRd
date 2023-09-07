@@ -3,7 +3,8 @@ layout: post
 title:  "Armor of Agathys"
 date:   2014-08-24
 sources: [PHB.215]
-tags: [warlock, paladin (conquest), level1, abjuration]
+tags: [warlock, level1, action, abjuration]
+subtags: [paladin: conquest]
 ---
 
 **1st-level abjuration**

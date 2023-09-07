@@ -2,8 +2,8 @@
 layout: post
 title:  "Watery Sphere"
 date: 2015-11-19
-sources: [EE.23, Xanathar.170]
-tags: [druid, sorcerer, wizard, level4, conjuration]
+sources: [EE.23, XGE.170]
+tags: [druid, sorcerer, wizard, level4, action, concentration, conjuration]
 ---
 
 **4th-level conjuration**

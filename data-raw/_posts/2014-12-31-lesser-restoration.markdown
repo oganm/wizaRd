@@ -3,7 +3,8 @@ layout: post
 title:  "Lesser Restoration"
 date:   2014-12-31
 sources: [PHB.255, SRD.158]
-tags: [bard, cleric, druid, paladin, ranger, level2, abjuration]
+tags: [artificer, bard, cleric, druid, paladin, ranger, level2, action, abjuration]
+subtags: [sorcerer: clockwork-soul, warlock: celestial]
 ---
 
 **2nd-level abjuration**

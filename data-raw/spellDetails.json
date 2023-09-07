@@ -69,7 +69,19 @@
     "range": ["30 ft"],
     "aoe": [null],
     "attackSave": [""],
-    "damageEffect": ["Buff (...)"]
+    "damageEffect": ["Buff"]
+  },
+  "Air Bubble": {
+    "name": ["Air Bubble"],
+    "level": ["2nd"],
+    "school": ["Conjuration"],
+    "components": ["S"],
+    "castingTime": ["1 Action"],
+    "duration": ["24 Hours"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff"]
   },
   "Alarm": {
     "name": ["Alarm"],
@@ -239,18 +251,6 @@
     "attackSave": [""],
     "damageEffect": ["Utility (...)"]
   },
-  "Arcane Weapon": {
-    "name": ["Arcane Weapon"],
-    "level": ["1st"],
-    "school": ["Transmutation"],
-    "components": ["V, S"],
-    "castingTime": ["1 Bonus Action"],
-    "duration": ["1 Hour"],
-    "range": ["Self"],
-    "aoe": [null],
-    "attackSave": [""],
-    "damageEffect": [""]
-  },
   "Arcanist's Magic Aura": {
     "name": ["Arcanist's Magic Aura"],
     "level": ["2nd"],
@@ -286,6 +286,18 @@
     "aoe": ["(10 ft sphere)"],
     "attackSave": ["STR Save"],
     "damageEffect": ["Necrotic"]
+  },
+  "Ashardalon's Stride": {
+    "name": ["Ashardalon's Stride"],
+    "level": ["3rd"],
+    "school": ["Transmutation"],
+    "components": ["V, S"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Fire"]
   },
   "Astral Projection": {
     "name": ["Astral Projection"],
@@ -475,9 +487,9 @@
     "castingTime": ["1 Action"],
     "duration": ["1 Minute"],
     "range": ["90 ft"],
-    "aoe": [null],
+    "aoe": ["(20 ft square)"],
     "attackSave": ["DEX Save"],
-    "damageEffect": ["Restrained"]
+    "damageEffect": ["Bludgeoning"]
   },
   "Blade Barrier": {
     "name": ["Blade Barrier"],
@@ -490,6 +502,18 @@
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Slashing"]
+  },
+  "Blade of Disaster": {
+    "name": ["Blade of Disaster"],
+    "level": ["9th"],
+    "school": ["Conjuration"],
+    "components": ["V, S"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": ["Melee"],
+    "damageEffect": ["Force"]
   },
   "Blade Ward": {
     "name": ["Blade Ward"],
@@ -583,7 +607,7 @@
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
     "range": ["120 ft"],
-    "aoe": ["(30 ft  *cylinder)"],
+    "aoe": ["(5 ft  *cylinder)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Bludgeoning"]
   },
@@ -591,13 +615,25 @@
     "name": ["Booming Blade"],
     "level": ["Cantrip"],
     "school": ["Evocation"],
-    "components": ["V, M"],
+    "components": ["S, M"],
     "castingTime": ["1 Action"],
     "duration": ["1 Round"],
-    "range": ["5 ft"],
-    "aoe": [null],
+    "range": ["Self"],
+    "aoe": ["(5 ft sphere)"],
     "attackSave": ["Melee"],
     "damageEffect": ["Thunder (...)"]
+  },
+  "Borrowed Knowledge": {
+    "name": ["Borrowed Knowledge"],
+    "level": ["2nd"],
+    "school": ["Divination"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Utility"]
   },
   "Branding Smite": {
     "name": ["Branding Smite"],
@@ -849,7 +885,7 @@
     "range": ["Self"],
     "aoe": ["(15 ft cone)"],
     "attackSave": [""],
-    "damageEffect": ["Control"]
+    "damageEffect": ["Blinded"]
   },
   "Command": {
     "name": ["Command"],
@@ -861,7 +897,7 @@
     "range": ["60 ft"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
-    "damageEffect": ["Control"]
+    "damageEffect": ["Prone"]
   },
   "Commune": {
     "name": ["Commune"],
@@ -921,7 +957,7 @@
     "range": ["30 ft"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
-    "damageEffect": ["Charmed"]
+    "damageEffect": ["Control"]
   },
   "Cone of Cold": {
     "name": ["Cone of Cold"],
@@ -1099,7 +1135,7 @@
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
     "range": ["60 ft"],
-    "aoe": ["( *cube)"],
+    "aoe": ["(5 ft  *cube)"],
     "attackSave": [""],
     "damageEffect": ["Control"]
   },
@@ -1199,6 +1235,18 @@
     "attackSave": [""],
     "damageEffect": ["Creation (...)"]
   },
+  "Create Magen": {
+    "name": ["Create Magen"],
+    "level": ["7th"],
+    "school": ["Transmutation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Hour"],
+    "duration": ["Instantaneous"],
+    "range": ["Touch"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": [""]
+  },
   "Create or Destroy Water": {
     "name": ["Create or Destroy Water"],
     "level": ["1st"],
@@ -1208,6 +1256,18 @@
     "duration": ["Instantaneous"],
     "range": ["30 ft"],
     "aoe": ["(30 ft cube)"],
+    "attackSave": [""],
+    "damageEffect": ["Creation"]
+  },
+  "Create Spelljamming Helm": {
+    "name": ["Create Spelljamming Helm"],
+    "level": ["5th"],
+    "school": ["Transmutation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["Touch"],
+    "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Creation"]
   },
@@ -1306,6 +1366,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Control (...)"]
+  },
+  "Dark Star": {
+    "name": ["Dark Star"],
+    "level": ["8th"],
+    "school": ["Evocation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["150 ft"],
+    "aoe": ["(40 ft  *sphere)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Force"]
   },
   "Darkness": {
     "name": ["Darkness"],
@@ -1523,6 +1595,18 @@
     "attackSave": ["WIS Save"],
     "damageEffect": ["Psychic"]
   },
+  "Distort Value": {
+    "name": ["Distort Value"],
+    "level": ["1st"],
+    "school": ["Illusion"],
+    "components": ["V"],
+    "castingTime": ["1 Minute"],
+    "duration": ["8 Hours"],
+    "range": ["Touch"],
+    "aoe": ["(1 ft cube)"],
+    "attackSave": [""],
+    "damageEffect": [""]
+  },
   "Divination": {
     "name": ["Divination"],
     "level": ["4th"],
@@ -1595,6 +1679,18 @@
     "attackSave": ["WIS Save"],
     "damageEffect": ["Charmed"]
   },
+  "Draconic Transformation": {
+    "name": ["Draconic Transformation"],
+    "level": ["7th"],
+    "school": ["Transmutation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["Self"],
+    "aoe": ["(60 ft cone)"],
+    "attackSave": ["DEX Save"],
+    "damageEffect": ["Force"]
+  },
   "Dragon's Breath": {
     "name": ["Dragon's Breath"],
     "level": ["2nd"],
@@ -1630,6 +1726,18 @@
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Communication (...)"]
+  },
+  "Dream of the Blue Veil": {
+    "name": ["Dream of the Blue Veil"],
+    "level": ["7th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["10 Minutes"],
+    "duration": ["6 Hours"],
+    "range": ["20 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Teleportation"]
   },
   "Druid Grove": {
     "name": ["Druid Grove"],
@@ -1941,7 +2049,7 @@
     "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
-    "damageEffect": ["Healing"]
+    "damageEffect": ["Buff"]
   },
   "Far Step": {
     "name": ["Far Step"],
@@ -1954,6 +2062,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Teleportation"]
+  },
+  "Fast Friends": {
+    "name": ["Fast Friends"],
+    "level": ["3rd"],
+    "school": ["Enchantment"],
+    "components": ["V"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["30 ft"],
+    "aoe": [null],
+    "attackSave": ["WIS Save"],
+    "damageEffect": ["Charmed"]
   },
   "Fear": {
     "name": ["Fear"],
@@ -2123,6 +2243,18 @@
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire"]
   },
+  "Fizban's Platinum Shield": {
+    "name": ["Fizban's Platinum Shield"],
+    "level": ["6th"],
+    "school": ["Abjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Warding"]
+  },
   "Flame Arrows": {
     "name": ["Flame Arrows"],
     "level": ["3rd"],
@@ -2267,6 +2399,18 @@
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
   },
+  "Fortune's Favor": {
+    "name": ["Fortune's Favor"],
+    "level": ["2nd"],
+    "school": ["Divination"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Minute"],
+    "duration": ["1 Hour"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff (...)"]
+  },
   "Freedom of Movement": {
     "name": ["Freedom of Movement"],
     "level": ["4th"],
@@ -2275,6 +2419,30 @@
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
     "range": ["Touch"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff (...)"]
+  },
+  "Freedom of the Waves": {
+    "name": ["Freedom of the Waves"],
+    "level": ["3rd"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["120 ft"],
+    "aoe": ["(10 ft cylinder)"],
+    "attackSave": ["STR Save"],
+    "damageEffect": ["Bludgeoning"]
+  },
+  "Freedom of the Winds": {
+    "name": ["Freedom of the Winds"],
+    "level": ["5th"],
+    "school": ["Abjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["10 Minutes"],
+    "range": ["Self"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
@@ -2302,6 +2470,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
+  },
+  "Frost Fingers": {
+    "name": ["Frost Fingers"],
+    "level": ["1st"],
+    "school": ["Evocation"],
+    "components": ["V, S"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["Self"],
+    "aoe": ["(15 ft cone)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Cold"]
   },
   "Frostbite": {
     "name": ["Frostbite"],
@@ -2399,6 +2579,30 @@
     "attackSave": [""],
     "damageEffect": ["Summoning"]
   },
+  "Gift of Alacrity": {
+    "name": ["Gift of Alacrity"],
+    "level": ["1st"],
+    "school": ["Divination"],
+    "components": ["V, S"],
+    "castingTime": ["1 Minute"],
+    "duration": ["8 Hours"],
+    "range": ["Touch"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff (...)"]
+  },
+  "Gift of Gab": {
+    "name": ["Gift of Gab"],
+    "level": ["2nd"],
+    "school": ["Enchantment"],
+    "components": ["V, S, M, R"],
+    "castingTime": ["1 Reaction  *"],
+    "duration": ["Instantaneous"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": [""]
+  },
   "Glibness": {
     "name": ["Glibness"],
     "level": ["8th"],
@@ -2459,6 +2663,30 @@
     "attackSave": ["DEX Save"],
     "damageEffect": ["Control"]
   },
+  "Gravity Fissure": {
+    "name": ["Gravity Fissure"],
+    "level": ["6th"],
+    "school": ["Evocation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["Self"],
+    "aoe": ["(100 ft  *line)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Force"]
+  },
+  "Gravity Sinkhole": {
+    "name": ["Gravity Sinkhole"],
+    "level": ["4th"],
+    "school": ["Evocation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["120 ft"],
+    "aoe": ["(20 ft sphere)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Force"]
+  },
   "Grease": {
     "name": ["Grease"],
     "level": ["1st"],
@@ -2499,11 +2727,11 @@
     "name": ["Green-Flame Blade"],
     "level": ["Cantrip"],
     "school": ["Evocation"],
-    "components": ["V, M"],
+    "components": ["S, M"],
     "castingTime": ["1 Action"],
     "duration": ["Instantaneous"],
-    "range": ["5 ft"],
-    "aoe": [null],
+    "range": ["Self"],
+    "aoe": ["(5 ft sphere)"],
     "attackSave": ["Melee"],
     "damageEffect": ["Fire (...)"]
   },
@@ -2673,7 +2901,7 @@
     "range": ["60 ft"],
     "aoe": ["(5 ft cube)"],
     "attackSave": [""],
-    "damageEffect": ["Healing"]
+    "damageEffect": ["Healing (...)"]
   },
   "Healing Word": {
     "name": ["Healing Word"],
@@ -2733,7 +2961,7 @@
     "range": ["Touch"],
     "aoe": [null],
     "attackSave": [""],
-    "damageEffect": ["Buff (...)"]
+    "damageEffect": ["Buff"]
   },
   "Hex": {
     "name": ["Hex"],
@@ -2915,6 +3143,18 @@
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire (...)"]
   },
+  "Immovable Object": {
+    "name": ["Immovable Object"],
+    "level": ["2nd"],
+    "school": ["Transmutation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["Touch"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Dunamancy (...)"]
+  },
   "Imprisonment": {
     "name": ["Imprisonment"],
     "level": ["9th"],
@@ -2938,6 +3178,18 @@
     "aoe": ["(20 ft sphere)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Fire"]
+  },
+  "Incite Greed": {
+    "name": ["Incite Greed"],
+    "level": ["3rd"],
+    "school": ["Enchantment"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["30 ft"],
+    "aoe": [null],
+    "attackSave": ["WIS Save"],
+    "damageEffect": ["Charmed"]
   },
   "Infernal Calling": {
     "name": ["Infernal Calling"],
@@ -2998,6 +3250,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Detection (...)"]
+  },
+  "Intellect Fortress": {
+    "name": ["Intellect Fortress"],
+    "level": ["3rd"],
+    "school": ["Abjuration"],
+    "components": ["V"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["30 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff"]
   },
   "Investiture of Flame": {
     "name": ["Investiture of Flame"],
@@ -3071,6 +3335,30 @@
     "attackSave": [""],
     "damageEffect": ["Warding"]
   },
+  "Jim's Glowing Coin": {
+    "name": ["Jim's Glowing Coin"],
+    "level": ["2nd"],
+    "school": ["Enchantment"],
+    "components": ["S, M, R"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": ["WIS Save"],
+    "damageEffect": [""]
+  },
+  "Jim's Magic Missile": {
+    "name": ["Jim's Magic Missile"],
+    "level": ["1st"],
+    "school": ["Evocation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["120 ft"],
+    "aoe": [null],
+    "attackSave": ["Ranged"],
+    "damageEffect": ["Force"]
+  },
   "Jump": {
     "name": ["Jump"],
     "level": ["1st"],
@@ -3082,6 +3370,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Movement"]
+  },
+  "Kinetic Jaunt": {
+    "name": ["Kinetic Jaunt"],
+    "level": ["2nd"],
+    "school": ["Transmutation"],
+    "components": ["S"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff"]
   },
   "Knock": {
     "name": ["Knock"],
@@ -3395,6 +3695,18 @@
     "attackSave": [""],
     "damageEffect": ["Exploration (...)"]
   },
+  "Magnify Gravity": {
+    "name": ["Magnify Gravity"],
+    "level": ["1st"],
+    "school": ["Transmutation"],
+    "components": ["V, S"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Round"],
+    "range": ["60 ft"],
+    "aoe": ["(10 ft  *sphere)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Force"]
+  },
   "Major Image": {
     "name": ["Major Image"],
     "level": ["3rd"],
@@ -3465,7 +3777,7 @@
     "range": ["60 ft"],
     "aoe": [null],
     "attackSave": ["WIS Save"],
-    "damageEffect": ["Charmed"]
+    "damageEffect": ["Control (...)"]
   },
   "Maximilian's Earthen Grasp": {
     "name": ["Maximilian's Earthen Grasp"],
@@ -3599,6 +3911,18 @@
     "attackSave": [""],
     "damageEffect": ["Buff"]
   },
+  "Mind Sliver": {
+    "name": ["Mind Sliver"],
+    "level": ["Cantrip"],
+    "school": ["Enchantment"],
+    "components": ["V"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": ["INT Save"],
+    "damageEffect": ["Psychic"]
+  },
   "Mind Spike": {
     "name": ["Mind Spike"],
     "level": ["2nd"],
@@ -3719,6 +4043,18 @@
     "attackSave": [""],
     "damageEffect": ["Piercing"]
   },
+  "Mordenkainen's Magnificent Mansion": {
+    "name": ["Mordenkainen's Magnificent Mansion"],
+    "level": ["7th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Minute"],
+    "duration": ["24 Hours"],
+    "range": ["300 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Exploration (...)"]
+  },
   "Mordenkainen's Private Sanctum": {
     "name": ["Mordenkainen's Private Sanctum"],
     "level": ["4th"],
@@ -3743,17 +4079,17 @@
     "attackSave": ["Melee"],
     "damageEffect": ["Force"]
   },
-  "Mordenkainen's Magnificent Mansion": {
-    "name": ["Mordenkainen's Magnificent Mansion"],
-    "level": ["7th"],
-    "school": ["Conjuration"],
-    "components": ["V, S, M"],
+  "Motivational Speech": {
+    "name": ["Motivational Speech"],
+    "level": ["3rd"],
+    "school": ["Enchantment"],
+    "components": ["V"],
     "castingTime": ["1 Minute"],
-    "duration": ["24 Hours"],
-    "range": ["300 ft"],
+    "duration": ["1 Hour"],
+    "range": ["60 ft"],
     "aoe": [null],
     "attackSave": [""],
-    "damageEffect": ["Exploration (...)"]
+    "damageEffect": ["Buff"]
   },
   "Move Earth": {
     "name": ["Move Earth"],
@@ -3766,6 +4102,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Control"]
+  },
+  "Nathair's Mischief": {
+    "name": ["Nathair's Mischief"],
+    "level": ["2nd"],
+    "school": ["Illusion"],
+    "components": ["S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["60 ft"],
+    "aoe": ["(20 ft cube)"],
+    "attackSave": [""],
+    "damageEffect": ["Charmed (...)"]
   },
   "Negative Energy Flood": {
     "name": ["Negative Energy Flood"],
@@ -4187,6 +4535,18 @@
     "attackSave": ["INT Save"],
     "damageEffect": ["Psychic"]
   },
+  "Pulse Wave": {
+    "name": ["Pulse Wave"],
+    "level": ["3rd"],
+    "school": ["Evocation"],
+    "components": ["V, S"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["Self"],
+    "aoe": ["(30 ft cone)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Force"]
+  },
   "Purify Food and Drink": {
     "name": ["Purify Food and Drink"],
     "level": ["1st"],
@@ -4235,6 +4595,30 @@
     "attackSave": [""],
     "damageEffect": ["Communication"]
   },
+  "Raulothim's Psychic Lance": {
+    "name": ["Raulothim's Psychic Lance"],
+    "level": ["4th"],
+    "school": ["Enchantment"],
+    "components": ["V"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["120 ft"],
+    "aoe": [null],
+    "attackSave": ["INT Save"],
+    "damageEffect": ["Psychic"]
+  },
+  "Ravenous Void": {
+    "name": ["Ravenous Void"],
+    "level": ["9th"],
+    "school": ["Evocation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["1,000 ft"],
+    "aoe": ["(20 ft  *sphere)"],
+    "attackSave": ["STR Save"],
+    "damageEffect": ["Force"]
+  },
   "Ray of Enfeeblement": {
     "name": ["Ray of Enfeeblement"],
     "level": ["2nd"],
@@ -4270,6 +4654,18 @@
     "aoe": [null],
     "attackSave": ["CON Save"],
     "damageEffect": ["Poison"]
+  },
+  "Reality Break": {
+    "name": ["Reality Break"],
+    "level": ["8th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": ["WIS Save"],
+    "damageEffect": ["Control (...)"]
   },
   "Regenerate": {
     "name": ["Regenerate"],
@@ -4367,6 +4763,18 @@
     "attackSave": [""],
     "damageEffect": ["Healing"]
   },
+  "Rime's Binding Ice": {
+    "name": ["Rime's Binding Ice"],
+    "level": ["2nd"],
+    "school": ["Evocation"],
+    "components": ["S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["Self"],
+    "aoe": ["(30 ft cone)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Cold"]
+  },
   "Rope Trick": {
     "name": ["Rope Trick"],
     "level": ["2nd"],
@@ -4402,6 +4810,18 @@
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Buff (...)"]
+  },
+  "Sapping Sting": {
+    "name": ["Sapping Sting"],
+    "level": ["Cantrip"],
+    "school": ["Necromancy"],
+    "components": ["V, S"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["30 ft"],
+    "aoe": [null],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Necrotic"]
   },
   "Scatter": {
     "name": ["Scatter"],
@@ -4655,6 +5075,18 @@
     "attackSave": [""],
     "damageEffect": ["Control"]
   },
+  "Silvery Barbs": {
+    "name": ["Silvery Barbs"],
+    "level": ["1st"],
+    "school": ["Enchantment"],
+    "components": ["V"],
+    "castingTime": ["1 Reaction  *"],
+    "duration": ["Instantaneous"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff (...)"]
+  },
   "Simulacrum": {
     "name": ["Simulacrum"],
     "level": ["7th"],
@@ -4843,9 +5275,21 @@
     "castingTime": ["1 Action"],
     "duration": ["10 Minutes"],
     "range": ["Self"],
-    "aoe": [null],
+    "aoe": ["(15 ft sphere)"],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Radiant (...)"]
+  },
+  "Spirit Shroud": {
+    "name": ["Spirit Shroud"],
+    "level": ["3rd"],
+    "school": ["Necromancy"],
+    "components": ["V, S"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Cold (...)"]
   },
   "Spiritual Weapon": {
     "name": ["Spiritual Weapon"],
@@ -4955,6 +5399,102 @@
     "attackSave": ["WIS Save"],
     "damageEffect": ["Control (...)"]
   },
+  "Summon Aberration": {
+    "name": ["Summon Aberration"],
+    "level": ["4th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Beast": {
+    "name": ["Summon Beast"],
+    "level": ["2nd"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Celestial": {
+    "name": ["Summon Celestial"],
+    "level": ["5th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Construct": {
+    "name": ["Summon Construct"],
+    "level": ["4th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Draconic Spirit": {
+    "name": ["Summon Draconic Spirit"],
+    "level": ["5th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Elemental": {
+    "name": ["Summon Elemental"],
+    "level": ["4th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Fey": {
+    "name": ["Summon Fey"],
+    "level": ["3rd"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Fiend": {
+    "name": ["Summon Fiend"],
+    "level": ["6th"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
   "Summon Greater Demon": {
     "name": ["Summon Greater Demon"],
     "level": ["4th"],
@@ -4975,6 +5515,30 @@
     "castingTime": ["1 Action"],
     "duration": ["1 Hour"],
     "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Shadowspawn": {
+    "name": ["Summon Shadowspawn"],
+    "level": ["3rd"],
+    "school": ["Conjuration"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Summoning"]
+  },
+  "Summon Undead": {
+    "name": ["Summon Undead"],
+    "level": ["3rd"],
+    "school": ["Necromancy"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["90 ft"],
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Summoning"]
@@ -5063,6 +5627,42 @@
     "attackSave": ["WIS Save"],
     "damageEffect": ["Prone (...)"]
   },
+  "Tasha's Caustic Brew": {
+    "name": ["Tasha's Caustic Brew"],
+    "level": ["1st"],
+    "school": ["Evocation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Minute"],
+    "range": ["Self"],
+    "aoe": ["(30 ft line)"],
+    "attackSave": ["DEX Save"],
+    "damageEffect": ["Acid"]
+  },
+  "Tasha's Mind Whip": {
+    "name": ["Tasha's Mind Whip"],
+    "level": ["2nd"],
+    "school": ["Enchantment"],
+    "components": ["V"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Round"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": ["INT Save"],
+    "damageEffect": ["Psychic"]
+  },
+  "Tasha's Otherworldly Guise": {
+    "name": ["Tasha's Otherworldly Guise"],
+    "level": ["6th"],
+    "school": ["Transmutation"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Bonus Action"],
+    "duration": ["1 Minute"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Buff"]
+  },
   "Telekinesis": {
     "name": ["Telekinesis"],
     "level": ["5th"],
@@ -5135,6 +5735,18 @@
     "attackSave": ["CHA Save"],
     "damageEffect": ["Creation (...)"]
   },
+  "Temporal Shunt": {
+    "name": ["Temporal Shunt"],
+    "level": ["5th"],
+    "school": ["Transmutation"],
+    "components": ["V, S"],
+    "castingTime": ["1 Reaction  *"],
+    "duration": ["1 Round"],
+    "range": ["120 ft"],
+    "aoe": [null],
+    "attackSave": ["WIS Save"],
+    "damageEffect": ["Banishment (...)"]
+  },
   "Tenser's Floating Disk": {
     "name": ["Tenser's Floating Disk"],
     "level": ["1st"],
@@ -5158,6 +5770,18 @@
     "aoe": [null],
     "attackSave": [""],
     "damageEffect": ["Buff (...)"]
+  },
+  "Tether Essence": {
+    "name": ["Tether Essence"],
+    "level": ["7th"],
+    "school": ["Necromancy"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["60 ft"],
+    "aoe": [null],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Control (...)"]
   },
   "Thaumaturgy": {
     "name": ["Thaumaturgy"],
@@ -5242,6 +5866,18 @@
     "aoe": [null],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Bludgeoning"]
+  },
+  "Time Ravage": {
+    "name": ["Time Ravage"],
+    "level": ["9th"],
+    "school": ["Necromancy"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Necrotic"]
   },
   "Time Stop": {
     "name": ["Time Stop"],
@@ -5446,6 +6082,18 @@
     "aoe": ["(20 ft sphere)"],
     "attackSave": ["DEX Save"],
     "damageEffect": ["Acid (...)"]
+  },
+  "Vortex Warp": {
+    "name": ["Vortex Warp"],
+    "level": ["2nd"],
+    "school": ["Conjuration"],
+    "components": ["V, S"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["90 ft"],
+    "aoe": [null],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Teleportation"]
   },
   "Wall of Fire": {
     "name": ["Wall of Fire"],
@@ -5687,6 +6335,18 @@
     "attackSave": ["Ranged"],
     "damageEffect": ["Lightning"]
   },
+  "Wither and Bloom": {
+    "name": ["Wither and Bloom"],
+    "level": ["2nd"],
+    "school": ["Necromancy"],
+    "components": ["V, S, M"],
+    "castingTime": ["1 Action"],
+    "duration": ["Instantaneous"],
+    "range": ["60 ft"],
+    "aoe": ["(10 ft  *sphere)"],
+    "attackSave": ["CON Save"],
+    "damageEffect": ["Necrotic"]
+  },
   "Word of Radiance": {
     "name": ["Word of Radiance"],
     "level": ["Cantrip"],
@@ -5734,6 +6394,18 @@
     "aoe": [null],
     "attackSave": ["WIS Save"],
     "damageEffect": ["Psychic"]
+  },
+  "Wristpocket": {
+    "name": ["Wristpocket"],
+    "level": ["2nd"],
+    "school": ["Conjuration"],
+    "components": ["S"],
+    "castingTime": ["1 Action"],
+    "duration": ["1 Hour"],
+    "range": ["Self"],
+    "aoe": [null],
+    "attackSave": [""],
+    "damageEffect": ["Dunamancy (...)"]
   },
   "Zephyr Strike": {
     "name": ["Zephyr Strike"],

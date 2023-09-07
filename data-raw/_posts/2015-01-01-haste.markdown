@@ -3,7 +3,8 @@ layout: post
 title:  "Haste"
 date:   2015-01-01
 sources: [PHB.250, SRD.153]
-tags: [druid (grassland), paladin (vengeance), sorcerer, wizard, level3, transmutation]
+tags: [artificer, sorcerer, wizard, level3, action, concentration, transmutation]
+subtags: [druid: grassland, paladin: glory, paladin: vengeance, ranger: horizon-walker]
 ---
 
 **3rd-level transmutation**

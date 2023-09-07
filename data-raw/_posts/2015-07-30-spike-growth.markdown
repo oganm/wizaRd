@@ -3,7 +3,8 @@ layout: post
 title: "Spike Growth"
 date: 2015-07-30
 sources: [PHB.277, SRD.182]
-tags: [cleric (nature), druid, ranger, level2, transmutation]
+tags: [druid, ranger, level2, action, concentration, transmutation]
+subtags: [cleric: nature, warlock: genie-dao]
 ---
 
 **2nd-level transmutation**

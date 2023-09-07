@@ -3,7 +3,8 @@ layout: post
 title:  "Stinking Cloud"
 date:   2015-01-02
 sources: [PHB.278, SRD.182]
-tags: [bard, druid (swamp), druid (underdark), sorcerer, warlock (fiend), wizard, level3, conjuration]
+tags: [bard, sorcerer, wizard, level3, action, concentration, conjuration]
+subtags: [druid: swamp, druid: underdark, warlock: fiend]
 ---
 
 **3rd-level conjuration**

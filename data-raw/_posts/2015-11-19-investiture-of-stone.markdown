@@ -2,8 +2,8 @@
 layout: post
 title:  "Investiture of Stone"
 date: 2015-11-19
-sources: [EE.19, Xanathar.159]
-tags: [druid, sorcerer, warlock, wizard, level6, transmutation]
+sources: [EE.19, XGE.159]
+tags: [druid, sorcerer, warlock, wizard, level6, action, concentration, transmutation]
 ---
 
 **6th-level transmutation**

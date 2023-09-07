@@ -2,8 +2,8 @@
 layout: post
 title:  "Thunder Step"
 date: 2017-11-13
-sources: [Xanathar.168]
-tags: [sorcerer, warlock, wizard, level3, conjuration]
+sources: [XGE.168]
+tags: [sorcerer, warlock, wizard, level3, action, conjuration]
 ---
 
 **3rd-level conjuration**

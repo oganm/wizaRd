@@ -3,7 +3,8 @@ layout: post
 title:  "Identify"
 date:   2014-08-24
 sources: [PHB.252, SRD.155]
-tags: [bard, cleric (forge), cleric (knowledge), wizard, level1, ritual, divination]
+tags: [artificer, bard, wizard, level1, long, ritual, divination]
+subtags: [cleric: knowledge, cleric: forge]
 ---
 
 **1st-level divination (ritual)**

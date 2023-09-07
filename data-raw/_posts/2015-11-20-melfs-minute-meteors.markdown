@@ -2,8 +2,8 @@
 layout: post
 title:  "Melf’s Minute Meteors"
 date: 2015-11-20
-sources: [EE.20, Xanathar.161]
-tags: [sorcerer, wizard, level3, evocation]
+sources: [EE.20, XGE.161]
+tags: [sorcerer, wizard, level3, action, concentration, evocation]
 ---
 
 **3rd-level evocation**

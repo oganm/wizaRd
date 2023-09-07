@@ -3,7 +3,7 @@ layout: post
 title:  "Conjure Animals"
 date:   2015-01-01
 sources: [PHB.225, SRD.127]
-tags: [druid, ranger, level3, conjuration]
+tags: [druid, ranger, level3, action, concentration, conjuration]
 ---
 
 **3rd-level conjuration**
@@ -29,4 +29,4 @@ The summoned creatures are friendly to you and your companions. Roll initiative 
 
 The DM has the creatures’ statistics.
 
-**At Higher Levels.** When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level
+**At Higher Levels.** When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.

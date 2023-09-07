@@ -3,7 +3,8 @@ layout: post
 title:  "Magic Missile"
 date:   2014-08-24
 sources: [PHB.257, SRD.161]
-tags: [cleric (arcana), sorcerer, wizard, level1, evocation]
+tags: [sorcerer, wizard, level1, action, evocation]
+subtags: [artificer: armorer, cleric: arcana]
 ---
 
 **1st-level evocation**

@@ -4,12 +4,12 @@ library(stringr)
 library(XML)
 library(purrr)
 
-# unlink('data-raw/_posts/',recursive = TRUE)
-# system('svn checkout https://github.com/thebombzen/grimoire/trunk/_posts')
-# system('mv _posts data-raw/_posts')
+unlink('data-raw/_posts/',recursive = TRUE)
+system('svn checkout https://github.com/thebombzen/grimoire/trunk/_posts')
+system('mv _posts data-raw/_posts')
 # download.file('https://www.dropbox.com/s/4f7zdx09nkfa9as/Core.xml?dl=1',destfile = 'data-raw/Core.xml')
-#allRules = xmlParse('data-raw/Core.xml') %>% xmlToList()
-#saveRDS(allRules,'data-raw/allRules.rds')
+# allRules = xmlParse('data-raw/Core.xml') %>% xmlToList()
+# saveRDS(allRules,'data-raw/allRules.rds')
 allRules = readRDS('data-raw/allRules.rds')
 fightClubSpells = allRules[names(allRules) == 'spell']
 names(fightClubSpells) = fightClubSpells %>% purrr::map_chr('name')
@@ -28,7 +28,8 @@ classNames =c('bard',
               'ranger',
               'sorcerer',
               'warlock',
-              'wizard')
+              'wizard',
+              'artificer')
 
 schools = c('abjuration',
             'conjuration',
@@ -125,14 +126,24 @@ spells$`Word of Radiance`$dice = 'CANd6'
 dndbeyond = readRDS('dndbeyond.rds')
 
 for(i in seq_along(spells)){
+    print(name)
     name = names(spells)[i]
 
-    beyonddata = dndbeyond[tolower(names(dndbeyond)) %in% tolower(name)] %>% {.[[1]]}
+    if(tolower(name) %in% tolower(names(dndbeyond))){
+        beyonddata = dndbeyond[tolower(names(dndbeyond)) %in% tolower(name)] %>% {.[[1]]}
 
-    spells[[i]]$range = beyonddata$range
-    spells[[i]]$aoe = beyonddata$aoe
-    spells[[i]]$attackSave = beyonddata$attackSave
-    spells[[i]]$damageEffect = beyonddata$damageEffect
+        spells[[i]]$range = beyonddata$range
+        spells[[i]]$aoe = beyonddata$aoe
+        spells[[i]]$attackSave = beyonddata$attackSave
+        spells[[i]]$damageEffect = beyonddata$damageEffect
+
+    } else{
+        spells[[i]]$range = '?'
+        spells[[i]]$aoe = '?'
+        spells[[i]]$attackSave = '?'
+        spells[[i]]$damageEffect = '?'
+    }
+
 
 }
 

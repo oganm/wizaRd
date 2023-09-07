@@ -3,7 +3,8 @@ layout: post
 title:  "Arms of Hadar"
 date:   2014-08-24
 sources: [PHB.215]
-tags: [warlock, level1, conjuration]
+tags: [warlock, level1, action, conjuration]
+subtags: [sorcerer: aberrant-mind]
 ---
 
 **1st-level conjuration**

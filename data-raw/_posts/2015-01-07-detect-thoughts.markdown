@@ -3,7 +3,8 @@ layout: post
 title:  "Detect Thoughts"
 date:   2015-01-07
 sources: [PHB.231, SRD.135]
-tags: [bard, sorcerer, warlock (great old one), wizard, level2, divination]
+tags: [bard, sorcerer, wizard, level2, action, concentration, divination]
+subtags: [sorcerer: aberrant-mind, warlock: great-old-one]
 ---
 
 **2nd-level divination**

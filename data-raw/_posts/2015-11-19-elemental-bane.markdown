@@ -2,8 +2,8 @@
 layout: post
 title:  "Elemental Bane"
 date: 2015-11-19
-sources: [EE.17, Xanathar.155]
-tags: [druid, warlock, wizard, level4, transmutation]
+sources: [EE.17, XGE.155]
+tags: [artificer, druid, warlock, wizard, level4, action, concentration, transmutation]
 ---
 
 **4th-level transmutation**

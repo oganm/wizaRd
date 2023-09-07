@@ -3,7 +3,8 @@ layout: post
 title:  "Create Food and Water"
 date:   2015-01-01
 sources: [PHB.229, SRD.131]
-tags: [cleric, druid (desert), paladin, level3, conjuration]
+tags: [artificer, cleric, paladin, level3, action, conjuration]
+subtags: [druid: desert, warlock: genie-dao, warlock: genie-djinni, warlock: genie-efreeti, warlock: genie-marid]
 ---
 
 **3rd-level conjuration**

@@ -3,7 +3,8 @@ layout: post
 title: "Greater Invisibility"
 date: 2015-07-30
 sources: [PHB.246, SRD.150]
-tags: [bard, druid (underdark), sorcerer, warlock (fae), wizard, level4, illusion]
+tags: [bard, sorcerer, wizard, level4, action, concentration, illusion]
+subtags: [artificer: armorer, cleric: twilight, druid: underdark, ranger: gloom-stalker, warlock: fey, warlock: genie-djinni, warlock: undead]
 ---
 
 **4th-level illusion**

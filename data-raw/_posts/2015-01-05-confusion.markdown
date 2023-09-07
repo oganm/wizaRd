@@ -3,7 +3,8 @@ layout: post
 title:  "Confusion"
 date:   2015-01-05
 sources: [PHB.224, SRD.127]
-tags: [bard, cleric (knowledge), druid, paladin (oathbreaker), sorcerer, wizard, level4, enchantment]
+tags: [bard, druid, sorcerer, wizard, level4, action, concentration, enchantment]
+subtags: [cleric: knowledge, paladin: oathbreaker]
 ---
 
 **4th-level enchantment**

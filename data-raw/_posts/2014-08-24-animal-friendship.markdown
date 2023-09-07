@@ -3,7 +3,8 @@ layout: post
 title:  "Animal Friendship"
 date:   2014-08-24
 sources: [PHB.212, SRD.115]
-tags: [bard, cleric (nature), druid, ranger, level1, enchantment]
+tags: [bard, druid, ranger, level1, action, enchantment]
+subtags: [cleric: nature]
 ---
 
 **1st-level enchantment**

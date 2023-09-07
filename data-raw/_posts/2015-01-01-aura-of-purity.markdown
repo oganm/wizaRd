@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Aura of Purity"
-date:   2015-01-01
+title: "Aura of Purity"
+date: 2015-01-01
 sources: [PHB.216]
-tags: [paladin, level4, abjuration]
+tags: [cleric, paladin, level4, action, concentration, abjuration]
+subtags: [artificer: battle-smith]
 ---
 
 **4th-level abjuration**
@@ -16,4 +17,4 @@ tags: [paladin, level4, abjuration]
 
 **Duration**: Concentration, up to 10 minutes
 
-Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can’t become diseased, has resistance to poison damage, and has advantage on saving throws against affects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned and stunned.
+Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can’t become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned and stunned.

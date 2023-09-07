@@ -3,7 +3,8 @@ layout: post
 title:  "Create or Destroy Water"
 date:   2014-08-24
 sources: [PHB.229, SRD.132]
-tags: [genasi (water), cleric, druid, level1, transmutation]
+tags: [cleric, druid, level1, action, transmutation]
+subtags: [warlock: fathomless]
 ---
 
 **1st-level transmutation**
@@ -18,7 +19,7 @@ tags: [genasi (water), cleric, druid, level1, transmutation]
 
 You either create or destroy water.
 
-**Create Water.** You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range.
+**Create Water.** You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.
 
 **Destroy Water.** You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.
 

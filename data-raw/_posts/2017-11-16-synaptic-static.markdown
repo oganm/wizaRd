@@ -2,8 +2,8 @@
 layout: post
 title:  "Synaptic Static"
 date: 2017-11-16
-sources: [Xanathar.167]
-tags: [bard, sorcerer, warlock, wizard, level5, enchantment]
+sources: [XGE.167]
+tags: [bard, sorcerer, warlock, wizard, level5, action, enchantment]
 ---
 
 **5th-level enchantment**

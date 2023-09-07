@@ -2,8 +2,8 @@
 layout: post
 title:  "Magic Stone"
 date: 2015-11-11
-sources: [EE.20, Xanathar.160]
-tags: [druid, warlock, cantrip, transmutation]
+sources: [EE.20, XGE.160]
+tags: [artificer, druid, warlock, cantrip, bonus, transmutation]
 ---
 
 **Transmutation cantrip**

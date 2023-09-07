@@ -3,7 +3,8 @@ layout: post
 title:  "Arcane Eye"
 date:   2015-01-01
 sources: [PHB.214, SRD.118]
-tags: [cleric (knowledge), cleric (arcana), wizard, level4, divination]
+tags: [artificer, wizard, level4, action, concentration, divination]
+subtags: [cleric: arcana, cleric: knowledge, ranger: swarmkeeper]
 ---
 
 **4th-level divination**

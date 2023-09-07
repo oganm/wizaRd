@@ -3,7 +3,8 @@ layout: post
 title:  "Crusader’s Mantle"
 date:   2015-01-01
 sources: [PHB.230]
-tags: [cleric (war), paladin, level3, evocation]
+tags: [paladin, level3, action, concentration, evocation]
+subtags: [cleric: war]
 ---
 
 **3rd-level evocation**

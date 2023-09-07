@@ -2,8 +2,8 @@
 layout: post
 title:  "Find Greater Steed"
 date:   2017-11-14
-sources: [Xanathar.156]
-tags: [paladin, level4, conjuration]
+sources: [XGE.156]
+tags: [paladin, level4, long, conjuration]
 ---
 
 **4th-level conjuration**

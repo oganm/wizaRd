@@ -3,7 +3,8 @@ layout: post
 title: "Magic Weapon"
 date: 2015-07-30
 sources: [PHB.257, SRD.161]
-tags: [cleric (arcana), cleric (forge), cleric (war), paladin, wizard, level2, transmutation]
+tags: [artificer, paladin, ranger, sorcerer, wizard, level2, bonus, concentration, transmutation]
+subtags: [cleric: arcana, cleric: forge, cleric: war]
 ---
 
 **2nd-level transmutation**

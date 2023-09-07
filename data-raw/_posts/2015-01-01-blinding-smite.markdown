@@ -3,7 +3,7 @@ layout: post
 title:  "Blinding Smite"
 date:   2015-01-01
 sources: [PHB.219]
-tags: [paladin, level3, evocation]
+tags: [paladin, level3, bonus, concentration, evocation]
 ---
 
 **3rd-level evocation**

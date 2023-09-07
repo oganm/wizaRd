@@ -4,12 +4,12 @@ library(magrittr)
 library(stringr)
 library(readr)
 
-spellsPage1 = read_html('https://www.dndbeyond.com/spells?filter-class=0&filter-search=&page=1')
+spellsPage1 = read_html('https://www.dndbeyond.com/spells?filter-class=0&filter-partnered-content=t&filter-search=&page=1')
 
 pageCount = spellsPage1 %>% html_nodes('.b-pagination-item') %>% html_text() %>% as.integer() %>% na.omit() %>% max
 
 allSpells = seq_len(pageCount) %>% lapply(function(page){
-    spellsPage = read_html(glue('https://www.dndbeyond.com/spells?filter-class=0&filter-search=&page={page}'))
+    spellsPage = read_html(glue('https://www.dndbeyond.com/spells?filter-class=0&filter-partnered-content=t&filter-search=&page={page}'))
     pageSpells = spellsPage %>% rvest::html_nodes('.info')
 
     pageSpells %<>% lapply(function(spell){

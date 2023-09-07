@@ -2,8 +2,8 @@
 layout: post
 title:  "Infestation"
 date: 2017-11-13
-sources: [Xanathar.158]
-tags: [druid, sorcerer, warlock, wizard, cantrip, conjuration]
+sources: [XGE.158]
+tags: [druid, sorcerer, warlock, wizard, cantrip, action, conjuration]
 ---
 
 **Conjuration cantrip**

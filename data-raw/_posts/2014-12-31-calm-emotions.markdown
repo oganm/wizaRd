@@ -3,7 +3,8 @@ layout: post
 title:  "Calm Emotions"
 date:   2014-12-31
 sources: [PHB.221, SRD.123]
-tags: [bard, cleric, paladin (redemption), warlock (fae), level2, enchantment]
+tags: [bard, cleric, level2, action, concentration, enchantment]
+subtags: [paladin: redemption, sorcerer: aberrant-mind, warlock: fey]
 ---
 
 **2nd-level enchantment**

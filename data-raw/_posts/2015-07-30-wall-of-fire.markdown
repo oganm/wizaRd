@@ -3,7 +3,8 @@ layout: post
 title: "Wall of Fire"
 date: 2015-07-30
 sources: [PHB.285, SRD.190]
-tags: [cleric (forge), cleric (light), druid, monk (four elements), sorcerer, warlock (fiend), wizard, level4, evocation]
+tags: [druid, sorcerer, wizard, level4, action, concentration, evocation]
+subtags: [artificer: artillerist, cleric: forge, cleric: light, warlock: celestial, warlock: fiend]
 ---
 
 **4th-level evocation**

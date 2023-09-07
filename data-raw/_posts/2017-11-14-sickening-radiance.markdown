@@ -2,8 +2,8 @@
 layout: post
 title:  "Sickening Radiance"
 date:   2017-11-14
-sources: [Xanathar.164]
-tags: [sorcerer, warlock, wizard, level4, evocation]
+sources: [XGE.164]
+tags: [sorcerer, warlock, wizard, level4, action, concentration, evocation]
 ---
 
 **4th-level evocation**

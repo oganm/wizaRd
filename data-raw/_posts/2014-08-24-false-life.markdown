@@ -3,7 +3,8 @@ layout: post
 title:  "False Life"
 date:   2014-08-24
 sources: [PHB.239, SRD.142]
-tags: [cleric (death), cleric (grave), sorcerer, warlock (undying), wizard, level1, necromancy]
+tags: [artificer, sorcerer, wizard, level1, action, necromancy]
+subtags: [cleric: death, cleric: grave, warlock: undead, warlock: undying]
 ---
 
 **1st-level necromancy**

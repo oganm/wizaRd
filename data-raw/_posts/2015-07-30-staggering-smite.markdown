@@ -3,7 +3,8 @@ layout: post
 title: "Staggering Smite"
 date: 2015-07-30
 sources: [PHB.278]
-tags: [paladin, level4, evocation]
+tags: [paladin, level4, bonus, concentration, evocation]
+subtags: [warlock: hexblade]
 ---
 
 **4th-level evocation**

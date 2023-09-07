@@ -2,8 +2,8 @@
 layout: post
 title:  "Bones of the Earth"
 date: 2015-11-19
-sources: [EE.15, Xanathar.150]
-tags: [druid, level6, transmutation]
+sources: [EE.15, XGE.150]
+tags: [druid, level6, action, transmutation]
 ---
 
 **6th-level transmutation**

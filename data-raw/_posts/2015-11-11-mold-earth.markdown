@@ -2,8 +2,8 @@
 layout: post
 title:  "Mold Earth"
 date: 2015-11-11
-sources: [EE.21, Xanathar.162]
-tags: [druid, sorcerer, wizard, cantrip, transmutation]
+sources: [EE.21, XGE.162]
+tags: [druid, sorcerer, wizard, cantrip, action, transmutation]
 ---
 
 **Transmutation cantrip**

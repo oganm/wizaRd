@@ -3,7 +3,8 @@ layout: post
 title: "Banishing Smite"
 date: 2015-07-14
 sources: [PHB.216]
-tags: [paladin, level5, abjuration]
+tags: [paladin, level5, bonus, concentration, abjuration]
+subtags: [artificer: battle-smith, warlock: hexblade]
 ---
 
 **5th-level abjuration**

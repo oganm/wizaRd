@@ -3,7 +3,8 @@ layout: post
 title: "Lightning Bolt"
 date: 2015-07-30
 sources: [PHB.255, SRD.159]
-tags: [druid (mountain), sorcerer, wizard, level3, evocation]
+tags: [sorcerer, wizard, level3, action, evocation]
+subtags: [artificer: armorer, druid: mountain, warlock: fathomless]
 ---
 
 **3rd-level evocation**

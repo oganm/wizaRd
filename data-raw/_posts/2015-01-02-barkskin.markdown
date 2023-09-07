@@ -3,7 +3,8 @@ layout: post
 title:  "Barkskin"
 date:   2015-01-02
 sources: [PHB.217, SRD.121]
-tags: [cleric (nature), druid, ranger, level2, transmutation]
+tags: [druid, ranger, level2, action, concentration, transmutation]
+subtags: [cleric: nature]
 ---
 
 **2nd-level transmutation**

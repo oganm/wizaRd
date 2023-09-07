@@ -3,7 +3,8 @@ layout: post
 title: "Wall of Stone"
 date: 2015-07-30
 sources: [PHB.287, SRD.190]
-tags: [druid, monk (four elements), sorcerer, wizard, level5, evocation]
+tags: [artificer, druid, sorcerer, wizard, level5, action, concentration, evocation]
+subtags: [warlock: genie-dao]
 ---
 
 **5th-level evocation**

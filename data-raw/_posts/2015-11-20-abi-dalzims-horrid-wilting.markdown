@@ -2,8 +2,8 @@
 layout: post
 title:  "Abi-Dalzim’s Horrid Wilting"
 date: 2015-11-20
-sources: [EE.15, Xanathar.150]
-tags: [sorcerer, wizard, level8, necromancy]
+sources: [EE.15, XGE.150]
+tags: [sorcerer, wizard, level8, action, necromancy]
 ---
 
 **8th-level necromancy**

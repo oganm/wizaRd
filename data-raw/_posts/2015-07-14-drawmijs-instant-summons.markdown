@@ -3,7 +3,7 @@ layout: post
 title:  "Drawmij’s Instant Summons"
 date:   2015-07-14
 sources: [PHB.235]
-tags: [wizard, level6, ritual, conjuration]
+tags: [wizard, level6, long, ritual, conjuration]
 ---
 
 **6th-level conjuration (ritual)**
@@ -16,7 +16,7 @@ tags: [wizard, level6, ritual, conjuration]
 
 **Duration**: Until dispelled
 
-You touch an object weighing 10 pounds or less w hose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.
+You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.
 
 At any time thereafter, you can use your action to speak the item’s name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.
 

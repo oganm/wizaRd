@@ -3,7 +3,8 @@ layout: post
 title:  "Slow"
 date:   2015-01-02
 sources: [PHB.277, SRD.180]
-tags: [druid (arctic), sorcerer, wizard, level3, transmutation]
+tags: [bard, sorcerer, wizard, level3, action, concentration, transmutation]
+subtags: [cleric: order, druid: arctic]
 ---
 
 **3rd-level transmutation**

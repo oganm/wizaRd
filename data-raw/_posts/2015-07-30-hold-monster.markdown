@@ -3,7 +3,8 @@ layout: post
 title: "Hold Monster"
 date: 2015-07-30
 sources: [PHB.251, SRD.154]
-tags: [bard, cleric (war), paladin (redemption), paladin (vengeance), sorcerer, warlock, wizard, level5, enchantment]
+tags: [bard, sorcerer, warlock, wizard, level5, action, concentration, enchantment]
+subtags: [cleric: war, paladin: ancients, paladin: redemption, paladin: watchers, ranger: monster-slayer]
 ---
 
 **5th-level enchantment**

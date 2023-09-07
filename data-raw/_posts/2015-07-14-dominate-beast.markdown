@@ -3,7 +3,8 @@ layout: post
 title: "Dominate Beast"
 date: 2015-07-14
 sources: [PHB.234, SRD.137]
-tags: [cleric (nature), druid, paladin (conquest), warlock (fae), warlock (great old one), sorcerer, level4, enchantment]
+tags: [druid, ranger, sorcerer, level4, action, concentration, enchantment]
+subtags: [cleric: nature, paladin: conquest, warlock: fey, warlock: great-old-one]
 ---
 
 **4th-level enchantment**

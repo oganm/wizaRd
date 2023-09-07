@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Fireball"
-date:   2015-01-01
+title: "Fireball"
+date: 2015-01-01
 sources: [PHB.241, SRD.144]
-tags: [cleric (light), monk (four elements), sorcerer, warlock (fiend), wizard, level3, evocation]
+tags: [sorcerer, wizard, level3, action, evocation]
+subtags: [artificer: artillerist, cleric: light, warlock: fiend, warlock: genie-efreeti]
 ---
 
 **3rd-level evocation**

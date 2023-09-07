@@ -3,7 +3,8 @@ layout: post
 title: "Contagion"
 date: 2015-07-14
 sources: [PHB.227, SRD.129]
-tags: [cleric, druid, paladin (oathbreaker), warlock (undying), level5, necromancy]
+tags: [cleric, druid, level5, action, necromancy]
+subtags: [paladin: oathbreaker, warlock: undying]
 ---
 
 **5th-level necromancy**

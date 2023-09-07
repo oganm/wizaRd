@@ -3,7 +3,8 @@ layout: post
 title: "Invisibility"
 date: 2015-06-07
 sources: [PHB.254, SRD.157]
-tags: [bard, druid (grassland), sorcerer, warlock, wizard, level2, illusion]
+tags: [artificer, bard, sorcerer, warlock, wizard, level2, action, concentration, illusion]
+subtags: [druid: grassland]
 ---
 
 **2nd-level illusion**

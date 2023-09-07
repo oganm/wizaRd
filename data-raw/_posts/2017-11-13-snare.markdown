@@ -2,8 +2,8 @@
 layout: post
 title:  "Snare"
 date: 2017-11-13
-sources: [Xanathar.165]
-tags: [druid, ranger, wizard, level1, abjuration]
+sources: [XGE.165]
+tags: [artificer, druid, ranger, wizard, level1, long, abjuration]
 ---
 
 **1st-level abjuration**

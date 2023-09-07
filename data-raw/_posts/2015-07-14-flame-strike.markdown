@@ -3,7 +3,8 @@ layout: post
 title: "Flame Strike"
 date: 2015-07-14
 sources: [PHB.242, SRD.145]
-tags: [cleric, paladin (devotion), warlock (fiend), level5, evocation]
+tags: [cleric, level5, action, evocation]
+subtags: [druid: wildfire, paladin: devotion, paladin: glory, warlock: celestial, warlock: fiend, warlock: genie-efreeti]
 ---
 
 **5th-level evocation**

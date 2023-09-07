@@ -3,7 +3,8 @@ layout: post
 title:  "Detect Evil and Good"
 date:   2014-08-24
 sources: [PHB.231, SRD.134]
-tags: [cleric, paladin, level1, divination]
+tags: [cleric, paladin, level1, action, concentration, divination]
+subtags: [warlock: genie-dao, warlock: genie-djinni, warlock: genie-efreeti, warlock: genie-marid]
 ---
 
 **1st-level divination**

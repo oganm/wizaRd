@@ -2,8 +2,8 @@
 layout: post
 title:  "Scatter"
 date:   2017-11-16
-sources: [Xanathar.164]
-tags: [sorcerer, warlock, wizard, level6, conjuration]
+sources: [XGE.164]
+tags: [sorcerer, warlock, wizard, level6, action, conjuration]
 ---
 
 **6th-level conjuration**

@@ -3,7 +3,8 @@ layout: post
 title:  "Call Lightning"
 date:   2015-01-01
 sources: [PHB.220, SRD.123]
-tags: [cleric (tempest), druid, level3, conjuration]
+tags: [druid, level3, action, concentration, conjuration]
+subtags: [cleric: tempest]
 ---
 
 **3rd-level conjuration**

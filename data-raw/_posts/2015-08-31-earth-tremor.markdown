@@ -2,8 +2,8 @@
 layout: post
 title:  "Earth Tremor"
 date: 2015-08-31
-sources: [EE.17, Xanathar.155]
-tags: [bard, druid, sorcerer, wizard, level1, evocation]
+sources: [EE.17, XGE.155]
+tags: [bard, druid, sorcerer, wizard, level1, action, evocation]
 ---
 
 **1st-level evocation**

@@ -3,7 +3,8 @@ layout: post
 title: "Cone of Cold"
 date: 2015-07-14
 sources: [PHB.224, SRD.127]
-tags: [druid (arctic), monk (four elements), sorcerer, wizard, level5, evocation]
+tags: [druid, sorcerer, wizard, level5, action, evocation]
+subtags: [artificer: artillerist, warlock: fathomless, warlock: genie-marid, warlock: hexblade]
 ---
 
 **5th-level evocation**

@@ -3,7 +3,8 @@ layout: post
 title: "Telekinesis"
 date: 2015-07-30
 sources: [PHB.280, SRD.185]
-tags: [sorcerer, warlock (great old one), wizard, level5, transmutation]
+tags: [sorcerer, wizard, level5, action, concentration, transmutation]
+subtags: [warlock: great-old-one]
 ---
 
 **5th-level transmutation**
